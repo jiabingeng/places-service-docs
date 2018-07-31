@@ -1,7 +1,3 @@
----
-description: 'Consists of:- - POI’s country/state/c'
----
-
 # Locations
 
 * POIs’ geofence: support circle only for now.

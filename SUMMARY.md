@@ -15,5 +15,6 @@
   * [Add Libraries in Adobe Launch](use-places-in-adobe-launch-rules/add-libraries-in-adobe-launch.md)
   * [Supported Places Rules](use-places-in-adobe-launch-rules/supported-places-rules.md)
   * [Conditions on the POIs](use-places-in-adobe-launch-rules/conditions-on-the-pois.md)
+* [Publish POIs](publish-pois.md)
 * [Managing POIs](managing-pois.md)
 
