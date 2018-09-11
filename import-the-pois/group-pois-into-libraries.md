@@ -5,7 +5,7 @@ description: >-
   more about experience cloud orgIDs, go to <l
 ---
 
-# Group POIs into Libraries
+# Configure the Places extension in Adobe Launch
 
-
+Add cotnent and link to the detailed extension content that will be added to the "Extension Reference" section here: [https://docs.adobelaunch.com](https://docs.adobelaunch.com).
 

@@ -1,4 +1,4 @@
-# Import the POIs
+# Configuring Places in Mobile Apps
 
 * group the POIs into libraries
 * understand the following information:

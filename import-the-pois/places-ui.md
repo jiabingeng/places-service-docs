@@ -2,7 +2,7 @@
 description: 'Category, icon, and color.'
 ---
 
-# Places UI
+# Places Data
 
 
 
