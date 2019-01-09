@@ -20,7 +20,6 @@
   * [Configure the Places extension in Adobe Launch](import-the-pois/group-pois-into-libraries.md)
   * [SDKs for the Places Extension in Adobe Launch](import-the-pois/poi-structure.md)
   * [Using Rules and Data Elements with Places Data](import-the-pois/locations.md)
-  * [Places Data](import-the-pois/places-ui.md)
 * [Places Use Cases](places-use-cases.md)
 * [Places FAQs](places-faqs.md)
 
