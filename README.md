@@ -57,3 +57,5 @@ The following graphic provides a high-level view of the Places architecture:
 
 ![](.gitbook/assets/places-arch.png)
 
+test
+
