@@ -16,6 +16,13 @@ The goal of Places is to fuse the physical and digital worlds by doing the follo
 
 For example, you can send a personalized notification when user enters one of your stores, send link to a satisfaction survey _x_ hours after this user visited one of your stores in San Francisco, and so on.
 
+## Additional Information
+
+Here is some additional documentation about the Places Service:
+
+* Places REST APIs: [https://launch.gitbook.io/places-developer-by-adobe-documentation/](https://launch.gitbook.io/places-developer-by-adobe-documentation/)
+* Places Extension: [https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension)
+
 ## Key Features
 
 * Geospatial POI query

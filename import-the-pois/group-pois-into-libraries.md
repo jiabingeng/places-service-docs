@@ -7,5 +7,5 @@ description: >-
 
 # Configure the Places extension in Adobe Launch
 
-Add cotnent and link to the detailed extension content that will be added to the "Extension Reference" section here: [https://docs.adobelaunch.com](https://docs.adobelaunch.com).
+To install and configure the Places Extension, go to [https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension).
 
