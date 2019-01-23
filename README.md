@@ -4,8 +4,8 @@ Places is the set of services that makes it easier for Adobe customers to hydrat
 
 Places comprises the following components:
 
-* The Places library, which creates and manages Places across properties.
-* The SDK Monitoring Extension, which tracks the location movement of users.
+* The Places Services \(REST APIs and UI\).
+* The SDK comprises the Places Extension and Monitoring Extension.
 * Places rules, which takes the appropriate actions from the location data.
 
 The goal of Places is to fuse the physical and digital worlds by doing the following:
