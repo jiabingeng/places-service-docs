@@ -1,4 +1,4 @@
-# Editing POIs
+# Editing a POI
 
 
 
