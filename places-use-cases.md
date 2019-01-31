@@ -1,4 +1,4 @@
-# Places Use Cases
+# Places use cases
 
 Some examples include:
 

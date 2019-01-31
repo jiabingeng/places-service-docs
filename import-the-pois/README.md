@@ -1,4 +1,4 @@
-# Configuring Places in Mobile Apps
+# Configuring Places in mobile apps
 
 * group the POIs into libraries
 * understand the following information:
