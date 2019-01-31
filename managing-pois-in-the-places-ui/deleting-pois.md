@@ -1,4 +1,0 @@
-# Deleting a POI
-
-
-

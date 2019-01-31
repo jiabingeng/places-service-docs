@@ -1,4 +1,0 @@
-# POI Metadata
-
-
-
