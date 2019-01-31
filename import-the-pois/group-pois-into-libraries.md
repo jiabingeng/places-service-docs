@@ -5,7 +5,7 @@ description: >-
   more about experience cloud orgIDs, go to <l
 ---
 
-# Configure the Places extension in Adobe Launch
+# Configure the Places extension in Launch
 
 To install and configure the Places Extension, go to [https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension).
 

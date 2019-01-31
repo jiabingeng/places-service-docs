@@ -1,4 +1,4 @@
-# Understanding Location from Devices
+# Understanding location from devices
 
 Include information about the following:
 
