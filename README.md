@@ -1,6 +1,6 @@
 # Overview
 
-Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Cloud solutions with location data, delivering the right experience to the right person at the right time and the right place.
+Places allows your customers to hydrate the Adobe Cloud Platform and Adobe Experience Cloud solutions with location data, delivering the right experience to the right person at the right time and the right place.
 
 Places comprises the following components:
 
@@ -21,7 +21,7 @@ For example, you can send a personalized notification when user enters one of yo
 
 * Geospatial POI query
 
-  Services to provide POI \(Points of Interest\) within an area \(used by Mobile SDK\)
+  Services to provide POI \(Points of Interest\) in an area \(used by Mobile SDK\)
 
 * Configuration of Places Extension
 
