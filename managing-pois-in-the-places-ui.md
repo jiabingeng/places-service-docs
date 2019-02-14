@@ -1,8 +1,8 @@
 # Manage POIs
 
-## Understanding POI metadata
+## POI metadata
 
-## Creating a POI
+## Create a POI
 
 A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
@@ -30,13 +30,19 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 
 
 
-## Editing a POI
-
-
+## Edit a POI
 
 1. Log into Adobe Places Service using your Adobe ID.
-2. On the **Map** tab, in the search field, enter the name of the POI. 
-3. To filter your results by map, select the **Filter Results by Map** check box. 
+2. On the **Libraries** tab, click **View POIs**. 
+3. In the list, click the POI that you want to edit.
+4. Click **Confirm**.
 
-## Deleting a POI
+## Delete a POI
+
+1. Log into Adobe Places Service using your Adobe ID.
+2. On the **Libraries** tab, click **View POIs**. 
+3. In the list, click the POI that you want to delete.
+4. Expand the Advanced section.
+5. Click **Delete POI.**
+6. Click **Confirm**.
 
