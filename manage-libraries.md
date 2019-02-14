@@ -8,7 +8,7 @@
 4. Type the name.
 5. Click **Confirm**.
 
-## Rename a Library
+## Rename a library
 
 1. Log in to Adobe Places with your Adobe ID.
 2. Click the **Library** tab.
