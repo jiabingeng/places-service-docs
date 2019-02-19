@@ -1,21 +1,23 @@
 # Overview
 
-Places allows your customers to hydrate the Adobe Cloud Platform and Adobe Experience Cloud solutions with location data, delivering the right experience to the right person at the right time and the right place.
+Places allows your customers to hydrate the Adobe Cloud Platform and Adobe Experience Cloud solutions with location data by delivering the correct experience to the correct person at the correct time and place.
+
+The goal of Places is to help you achieve the following:
+
+* Manage geofences
+* Measure the users' locations even when app is in the background
+* Use data in real-time when it matters 
+
+For example, you are a department store. When a user enters one of your stores, send a personalized notification. After _x_ number hours after this user leaves the store, you can send a link to a satisfaction survey.
+
+## Places Components
 
 Places comprises the following components:
 
 * The Places UI, which allows you to create points of interest and libraries.  For more information about getting started in the UI, see [Getting Started](https://launch.gitbook.io/places-services-by-adobe-documentation/getting-started).
-* The Places Services comprises the REST APIs. For more information about the REST APIs, see [Places REST API Guide](https://launch.gitbook.io/places-developer-by-adobe-documentation/).
+* The Places services comprises the REST APIs. For more information about the REST APIs, see [Places REST API Guide](https://launch.gitbook.io/places-developer-by-adobe-documentation/).
 * The Places SDK comprises the Places Extension. For more information about the Places Extension, see [Places Extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension).
 * Places rules, which takes the appropriate actions from the location data.
-
-The goal of Places is to fuse the physical and digital worlds by doing the following:
-
-* Manage Geofences
-* Measure location of users even when app is in the background
-* Use data in real-time when it matters 
-
-For example, you can send a personalized notification when user enters one of your stores, send link to a satisfaction survey _x_ hours after this user visited one of your stores in San Francisco, and so on.
 
 ## Key Features
 
