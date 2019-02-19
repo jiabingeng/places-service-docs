@@ -18,8 +18,6 @@ Before you can use Places, complete the following tasks:
 4. Type the name.
 5. Click **Confirm**.
 
-
-
 ## Create a POI
 
 A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
