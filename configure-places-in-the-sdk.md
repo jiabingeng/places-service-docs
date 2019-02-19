@@ -1,2 +1,2 @@
-# Configure Places in the SDK
+# Configure Places with the SDK
 
