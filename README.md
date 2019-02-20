@@ -68,7 +68,7 @@ Here are some common terms that are used in the Places documentation:
 
 ## Places Architecture
 
-The following graphic provides a high-level view of the Places architecture:
+Here is a high-level view of the Places workflow:
 
 ![](.gitbook/assets/places-workflow.png)
 
