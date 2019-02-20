@@ -66,7 +66,7 @@ Here are some common terms that are used in the Places documentation:
 * The **orgID** is the ID given to your organization.  For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.  For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-## Places Architecture
+## Places workflow
 
 Here is a high-level view of the Places workflow:
 
