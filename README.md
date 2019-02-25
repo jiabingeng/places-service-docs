@@ -70,5 +70,5 @@ Here are some common terms that are used in the Places documentation:
 
 Here is a high-level view of the Places workflow:
 
-![](.gitbook/assets/places-workflow.png)
+![](.gitbook/assets/places-workflow-diagram-lc.png)
 
