@@ -5,7 +5,7 @@ Places allows your customers to hydrate the Adobe Cloud Platform and Adobe Exper
 The goal of Places is to help you achieve the following:
 
 * Manage geofences
-* Measure the users' locations even when app is in the background
+* Measure your locations even when app is in the background
 * Use data in real-time when it matters 
 
 For example, you are a department store. When a user enters one of your stores, send a personalized notification. After _x_ number hours after this user leaves the store, you can send a link to a satisfaction survey.
@@ -59,12 +59,12 @@ Here are the key benefits to using Places:
 Here are some common terms that are used in the Places documentation:
 
 * A **point of interest \(POI\)** is a location or a point on a map that is of interest to you. 
-* A **library** is a collection of POIs.  For example, when you search for _all Thai restaurants near me_, each displayed location is a POI.
+* A **library** is a collection of POIs.   For example, when you search for _all Thai restaurants near me_, each displayed location is a POI.
 * **Places extensions**, in Adobe Launch are used to set configurations for the Places database extension and the monitoring extension for either web or mobile. 
-* **Places rules**, which are Launch rules that let you take the appropriate actions from the location data. For more about rules in Launch, see [Rules](https://docs.adobelaunch.com/managing-resources/rules).  
-* An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud.  The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
-* The **orgID** is the ID given to your organization.  For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
-* The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.  For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* **Places rules**, which are Launch rules that let you take the appropriate actions from the location data.  For more about rules in Launch, see [Rules](https://docs.adobelaunch.com/managing-resources/rules).  
+* An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud.   The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
+* The **orgID** is the ID given to your organization.   For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
+* The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.   For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Places workflow
 

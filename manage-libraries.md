@@ -1,5 +1,7 @@
 # Manage libraries
 
+A library is a collection of points of interest \(POI\). For example, a major theme park might have a library that comprises the park, and another library that comprises their department stores. A city might have a library that comprises all of the buildings and another library that comprises all of the parks. 
+
 ## Create a library
 
 1. Log into Adobe Places with your Adobe ID.
