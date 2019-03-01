@@ -6,7 +6,7 @@ Before you can use Places, complete the following tasks:
 
 * Verify your organization is provisioned with Places in the Admin Console. To ensure that your organization is correctly provisioned, contact your Adobe representative.
 * Verify you are listed as a user under the Places and Launch product contexts.
-* Your mobile app property is installed and configured in Launch. For more information, see [Configure Places extension in Launch](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/places-extension). 
+* Your mobile app property is installed and configured in Launch. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension). 
 
 
 
