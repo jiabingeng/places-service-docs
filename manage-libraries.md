@@ -1,6 +1,6 @@
 # Manage libraries
 
-A library is a collection of points of interest \(POI\). For example, a major entertainment company might have a library that comprises the park, and another library that comprises their retail stores. A city might have a library that comprises all of the buildings and another library that comprises all of the parks. 
+A library is a collection of points of interest \(POI\). For example, a major entertainment company might have a library that comprises their theme parks, and another library that comprises their retail stores. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city. 
 
 ## Create a library
 
