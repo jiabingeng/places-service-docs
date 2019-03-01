@@ -27,7 +27,7 @@ In the Places extension:
 * Rule events that trigger on POI entry or exit.
 * Create data elements that point to the user's current POI.
 
-For more information about the Places extension, see [Places extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/) guide.
+For more information about the Places extension, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 
 #### Places APIs 
 
