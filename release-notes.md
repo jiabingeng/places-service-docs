@@ -14,9 +14,9 @@ Here are the key features in this release:
 
 We have released a management UI where you can view and manage your Points of Interest \(POIs\). You also can organize your POIs into libraries. In addition to standard metadata like city, state, and category, we also support the ability to add custom metadata to your POIs.
 
-To get started with the Places UI, see Getting Started.
-
 To see the Places UI, go to [https://places.adobe.com](https://places.adobe.com). 
+
+To get started with the Places UI, see [Getting Started](https://launch.gitbook.io/places-services-by-adobe-documentation/getting-started).
 
 #### Places Launch Extension 
 
