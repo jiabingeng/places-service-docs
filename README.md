@@ -16,7 +16,7 @@ Places comprises the following components:
 
 * The Places UI, which allows you to create points of interest and libraries.  For more information about getting started in the UI, see [Getting Started](https://launch.gitbook.io/places-services-by-adobe-documentation/getting-started).
 * The Places services comprises the REST APIs. For more information about the REST APIs, see [Places REST API Guide](https://launch.gitbook.io/places-developer-by-adobe-documentation/).
-* The Places SDK comprises the Places Extension. For more information about the Places Extension, see [Places Extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/extension-reference/places-extension).
+* The Places SDK comprises the Places Extension. For more information about the Places Extension, see [Places extension](https://launch.gitbook.io/launch-adobe-mobile-sdk-beta/v/places/).
 * Places rules, which takes the appropriate actions from the location data.
 
 ## Key Features
