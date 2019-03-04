@@ -1,2 +1,0 @@
-# Places REST API Guide
-
