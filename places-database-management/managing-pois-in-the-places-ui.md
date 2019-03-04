@@ -1,4 +1,4 @@
-# Manage POIs
+# Manage POIs in the Places UI
 
 ## POI metadata
 

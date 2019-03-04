@@ -1,4 +1,4 @@
-# Manage libraries
+# Manage libraries in the Places UI
 
 A library is a collection of points of interest \(POI\). For example, a major entertainment company might have a library that comprises their theme parks, and another library that comprises their retail stores. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city. 
 
