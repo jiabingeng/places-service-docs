@@ -5,7 +5,7 @@
 Before you can use Places, complete the following tasks:
 
 * Verify your organization is provisioned with Places in the Admin Console. To ensure that your organization is correctly provisioned, contact your Adobe representative.
-* Verify you are listed as a user under the Places and Launch product contexts.
+* Verify you are listed as a user under the Places and Launch product contexts in the Admin Console.
 * Your mobile app property is installed and configured in Launch. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension). 
 
 
@@ -44,9 +44,9 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 20. **Type the key value.**
 21. Click **Confirm**.
 
-## Configure Adobe Experience Platform SDK with Places and Monitor extensions
+## Configure AEP SDK with Places with extensions
 
-## Define rules in Adobe Launch when user interacts with a POI
+## Define rules in Adobe Launch when user enters or exits a POI
 
 
 

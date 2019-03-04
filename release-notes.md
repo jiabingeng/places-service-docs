@@ -4,7 +4,7 @@
 
 ### Beta Release
 
-This is the first release of Adobe Location Services, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Launch.
+This is the first release of Places, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Launch.
 
 ### Key features
 
@@ -39,9 +39,9 @@ For more information about the Places APIs, see [Places REST API](https://launch
 
 #### Places Monitor Extension 
 
-In the next couple weeks, we will be launching the Places Monitor extension, which will automatically handle the registration and monitoring of POIs in Android and iOS.
+In the next couple weeks, we will be launching the Places Monitor extension, which will automatically handle the management of device location in relation to POIs of POIs in Android and iOS.
 
-#### Analytics Integration 
+#### Analytics Integration
 
-The Analytics Launch extension is being updated to automatically add location data to all outgoing Analytics when a user is within a POI. This update also allows rule creation to fire Analytics track calls directly at POI entry or exit.
+The Analytics Launch extension is being updated to automatically add location context data from your Places database to all outgoing Analytics calls when a user is within a POI \(Passive calls\). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit \(Active calls\).
 
