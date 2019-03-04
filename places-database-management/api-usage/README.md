@@ -5,7 +5,7 @@
 For details about the Places REST API that help you manage your POIs and libraries, see the following sections:
 
 * [Managing Libraries](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/api-usage/manage-libraries)
-* [Managing POIs]()
+* [Managing POIs](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/api-usage/manage-pois)
 
 Below are details on the headers and paramaters available in the Places REST API.
 
