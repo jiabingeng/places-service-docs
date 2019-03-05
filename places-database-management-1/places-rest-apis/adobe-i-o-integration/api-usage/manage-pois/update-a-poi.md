@@ -1,7 +1,5 @@
 # Update a POI
 
-[Edit on GitHub](https://github.com/jiabingeng/places-developer-docs/blob/master/api-usage/poi-management/put-poi.md)
-
 A PUT method that lets you update a POI.
 
 ## Request <a id="request"></a>

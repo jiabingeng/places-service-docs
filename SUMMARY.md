@@ -17,7 +17,7 @@
           * [Update a library](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/update-a-library.md)
           * [Delete a library](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/delete-a-library.md)
           * [Read all libraries in your organization](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
-          * [Set a ran on your libraries](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
+          * [Set a rank on your libraries](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
           * [Get a library's rank](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-libraries/get-a-librarys-rank.md)
         * [Manage POIs](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/README.md)
           * [Create a POI](places-database-management-1/places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/create-a-poi.md)

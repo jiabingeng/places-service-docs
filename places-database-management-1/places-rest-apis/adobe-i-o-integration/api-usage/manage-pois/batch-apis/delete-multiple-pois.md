@@ -1,6 +1,5 @@
 # Delete multiple POIs
 
-  
 A POST method that lets you delete multiple POIs.
 
 ## Request <a id="request"></a>

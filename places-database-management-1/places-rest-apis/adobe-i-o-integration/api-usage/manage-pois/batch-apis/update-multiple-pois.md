@@ -1,6 +1,5 @@
 # Update multiple POIs
 
-  
 A POST method that lets you update multiple POIs.
 
 ## Request <a id="request"></a>
