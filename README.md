@@ -19,7 +19,7 @@ For example, Places could be used to:
 
 Places comprises the following components:
 
-* Places database: Create and manage POIs using the Places management UI or Places REST APIs For more information, see[ Places database management]().
+* Places database: Create and manage POIs using the Places management UI or Places REST APIs For more information, see[ Places database management](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
 * Places SDK: manages device location in relation to POIs from the Places database. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 * Places rules: Adobe Launch rules are enabled with entry and exit events and conditions from the Places database. 
 
@@ -42,5 +42,5 @@ Here are some common terms that are used in the Places documentation:
 
 Here is a high-level view of the Places workflow:
 
-![](.gitbook/assets/places-workflow-diagram-lc.png)
+![](.gitbook/assets/places-workflow-diagram-lc-1.png)
 
