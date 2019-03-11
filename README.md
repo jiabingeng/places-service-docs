@@ -5,15 +5,15 @@ Location is the most personal context for designing and delivering personalized 
 The goal of Places is to help you achieve the following:
 
 * Manage a database of POIs with rich metadata that can be leveraged across the Experience Cloud.
-* Easily monitor device location in context of your POI database
-* Take Action from location signals in real-time when it matters to provide personalized experiences that delight your users.
+* Easily monitor device location from the context of your POI database.
+* Take action from location signals in real time, when it matters, to provide personalized experiences that delight your users.
 
 For example, Places could be used to: 
 
-* Send a real time notification when someone enters a store 
-* Analyze foot traffic of owned stores vs. competitor stores 
-* Segment an audience based on offline behavior
-* Target user with an in-store experience when relevant
+* Send a real time notification when someone enters a store.
+* Analyze foot traffic of owned stores versus competitor stores.
+* Segment an audience based on offline behavior.
+* Target user with an in-store experience when relevant.
 
 ## Places Components
 
