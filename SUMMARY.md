@@ -26,6 +26,7 @@
         * [Delete a POI](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/delete-a-poi.md)
         * [Read all POIs in a library](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/read-all-pois-in-a-library.md)
         * [Read all POIs in your organization](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/read-all-pois-in-your-organization.md)
+        * [Query APIs](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/query-apis.md)
         * [Batch APIs](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/batch-apis/README.md)
           * [Create multiple POIs](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
           * [Update multiple POIs](places-rest-apis/adobe-i-o-integration/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
