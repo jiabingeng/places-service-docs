@@ -7,7 +7,7 @@ Here are the details about the headers and parameters that are available in the 
 | Header | Description | Method | Example |
 | :--- | :--- | :--- | :--- |
 | Authorization | Your bearer token | All |  |
-| x-api-key | Your api key | All | 19776964b4cde49e08d8f62e5824f777b |
+| x-api-key | Your API key | All | 19776964b4cde49e08d8f62e5824f777b |
 | x-gw-ims-org-id | Your org ID | All | 18FB61145BAC2FFB0A494777@AdobeOrg |
 | Content-Type | Format of content sent or received | PUT, POST | application/json |
 | Accept-Language | Language used for error messages | Optional | en-US |
@@ -20,8 +20,8 @@ Here are the details about the headers and parameters that are available in the 
 | name | Name of the library | string | 256 characters | both, required in request | "name": "Amazing Places" |
 | orgID | Experience cloud orgID of the organization | assigned | n/a | Response | "orgID": "777F20F55BACA09E0A495D8F@AdobeOrg" |
 | poiCount | Number of POIs in library | integer | 150,000 max | Response | "poiCount": 25149 |
-| metadataDescriptors | count for each unique POI metadata key value pair | mixed | n/a | Response |  |
-| poiCountInCities | count for each unique POI city value | mixed | n/a | Response |  |
+| metadataDescriptors | Count for each unique POI metadata key value pair | mixed | n/a | Response |  |
+| poiCountInCities | Count for each unique POI city value | mixed | n/a | Response |  |
 
 ## POI parameters
 
@@ -45,5 +45,5 @@ Here are the details about the headers and parameters that are available in the 
 | metadata | Array of key/value pairs for the POI | array\(string\) | key: 256 characters, value: 256 characters, maximum of 10 pairs | both, optional**\*** | "metadata": {"region": "Equator"} |
 | lib\_id | ID of the library the POI is in | n/a | n/a | both, required | "lib\_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9" |
 
-\* **Optional** in request. If not included, parameter value will be set to empty string in database. If existing key/value pair is not included, the key/value pair will be removed for that POI in the database.
+\* If the parameter value is not included, the value is set to `empty` in database. If the existing key/value pair is not included, the key/value pair is removed for that POI in the database.
 
