@@ -18,10 +18,10 @@ With the following input, the service returns a list of the POIs that are closes
 
 Arguments need to be supplied as the following query parameters:
 
-* \(**Required**\) Latitude: caller's latitude, which must be between -85 and 85.  
-* \(**Required**\) Longitude: caller's longitude, which must be between -180 and 180. 
-* \(**Optional**\) Limit, which is the maximum number of POIs to return.  
-* \(**Required**\) Library,  which is the ID of the library to query.  This parameter includes multiple library query parameters to query multiple libraries. 
+* \(**Required**\) `latitude` The caller's latitude, which must be between -85 and 85.  
+* \(**Required**\) `longitude` The caller's longitude, which must be between -180 and 180. 
+* \(**Optional**\) `limit` The maximum number of POIs to return.  
+* \(**Required**\) `library` The ID of the library to query. This parameter includes multiple library query parameters to query multiple libraries. 
 
 Here is an example of the successful returned JSON format:
 
@@ -87,4 +87,12 @@ Here is an example of the successful returned JSON format:
 ```
 
  POIs under `places.pois` are sorted by distance from caller to the edge of the POIs. POIs under `places.userWithin` contains the caller, and these POIs are ordered by rank and then by increasing radius.
+
+## Sample call
+
+Here is an example of the call:
+
+```text
+GET https://query.places.adobe.com/placesedgequery?latitude=<userLatitude>&longitude=<userLongitude>&library=<libID1>&library=<libID2>&limit=20
+```
 
