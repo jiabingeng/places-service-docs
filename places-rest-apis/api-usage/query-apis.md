@@ -16,7 +16,7 @@ With the following input, the service returns a list of the POIs that are closes
 
  The distance between the caller and POI is defined as the distance from the caller to the edge of the POI's geofence. In the response, POIs that contain the caller will be marked as having the caller.
 
-Arguments need to be supplied as the following query parameters:
+Arguments are supplied as the following query parameters:
 
 * \(**Required**\) `latitude` The caller's latitude, which must be between -85 and 85.  
 * \(**Required**\) `longitude` The caller's longitude, which must be between -180 and 180. 
