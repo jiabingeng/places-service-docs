@@ -21,7 +21,7 @@ Arguments are supplied as the following query parameters:
 * \(**Required**\) `latitude` The caller's latitude, which must be between -85 and 85.  
 * \(**Required**\) `longitude` The caller's longitude, which must be between -180 and 180. 
 * \(**Optional**\) `limit` The maximum number of POIs to return.  
-* \(**Required**\) `library` The ID of the library to query. To query multiple libraries, you can include multiple copies of the library parameter in the query.
+* \(**Required**\) `library` The ID of the library to query. To query multiple libraries, ensure that you include multiple copies of the library parameter in the query.
 
 Here is an example of the successful returned JSON format:
 
