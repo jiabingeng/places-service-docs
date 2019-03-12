@@ -7,6 +7,7 @@
   * [Manage POIs in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
   * [Manage libraries in the Places UI](places-database-management-1/manage-libraries.md)
 * [Places REST APIs](places-rest-apis/README.md)
+  * [Headers and parameters](places-rest-apis/headers-and-parameters.md)
   * [Organizational requirements](places-rest-apis/organizational-requirements.md)
   * [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/README.md)
     * [Create a Places integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
