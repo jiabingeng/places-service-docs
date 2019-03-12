@@ -22,7 +22,7 @@ Before you can use the Places API, ensure that the following requirements have b
 After these requirements are met, you can access to the Places REST API. 
 
 * For more information about information about the APIs available and how to use them, see [API Usage](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/api-usage). 
-* For more information about the headers and parameters in these APIs, see [Headers and parameters](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis/headers-and-parameters).
+* For more information about the headers and parameters in these APIs, see [Headers and parameters](https://launch.gitbook.io/places-services-by-adobe-documentation/places-rest-apis/api-usage/headers-and-parameters).
 
 To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/jiabingeng/places-developer-docs/tree/a3606cf2bdb7247bc7070e1bb66c4f6c40fdb3bb/.gitbook/assets/import.zip). For instructions on how to use the scipts, see the included readme file.
 
