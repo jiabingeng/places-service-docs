@@ -32,10 +32,9 @@
         * [Update multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         * [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
     * [Query APIs](places-rest-apis/api-usage/query-apis.md)
-* [Configure the SDK with Places](configure-places-in-the-sdk/README.md)
-  * [Adding Places extensions](configure-places-in-the-sdk/adding-places-extensions.md)
-  * [Launch Data Elements with Places Data](configure-places-in-the-sdk/data-elements-with-places-data.md)
-  * [Launch Rules with Places data](configure-places-in-the-sdk/locations.md)
+* [Configure the SDK with Places](configure-places-in-the-sdk.md)
+* [Configure Launch Rules with Places data](locations/README.md)
+  * [Launch Data Elements with Places Data](locations/data-elements-with-places-data.md)
 * [Places use cases](places-use-cases.md)
 * [Places FAQs](places-faqs.md)
 

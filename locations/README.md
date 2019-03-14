@@ -1,4 +1,4 @@
-# Launch Rules with Places data
+# Configure Launch Rules with Places data
 
 ## Rules
 
