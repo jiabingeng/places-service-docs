@@ -1,6 +1,10 @@
 # Manage POIs in the Places UI
 
-## POI metadata
+## Defining a geofence POI:
+
+Geofences are created and managed through 
+
+
 
 ## Create a POI
 
