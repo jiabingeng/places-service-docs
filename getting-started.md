@@ -36,7 +36,7 @@ Here is some basic information to help you get familiarized with the UI:
 
 A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
 
-1. Log in to Adobe Places UI\([https://places.adobe.com](https://places.adobe.com)\).
+1. Log in to Adobe Places UI, in a browser, type [https://places.adobe.com](https://places.adobe.com).
 2. In the top left side, click **Map**.
 3. In the map view, on the lower right side, click **+ New POI**. 
 4. Expand the **Details** section.
