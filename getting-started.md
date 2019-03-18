@@ -1,28 +1,29 @@
 # Getting started
 
-## Prerequisites 
+## Get provisioned to use 'Places' 
 
-Before you can use Places, complete the following tasks:
+'Places' requires special provisioning context along with your regular AEP provisioning context. 
 
-* Verify your organization is provisioned with Places in the Admin Console. To ensure that your organization is correctly provisioned, contact your Adobe representative.
-* Verify you are listed as a user under the Places and Launch product contexts in the Admin Console.
-* Your mobile app property is installed and configured in Launch. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension). 
+* Ensure your organization is provisioned with Places in the Admin Console. If you are not the Adobe administrator, contact the administrator to ensure the 'Places' context in Admin Console.
+* Ensure you are listed as a user under the 'Places' and 'Launch' product contexts in the Admin Console.
+* Ensure your mobile app property is configured in Adobe Launch with 'Places' extension installed. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
+* If your company has multiple Adobe organizations, ensure that you always choose the one provisioned for 'Places' for adding your POIs and Libraries.
 
 
 
-## Create a library
+## Create a new empty library in Places database using Places UI
 
-1. Log into Adobe Places with your Adobe ID.
+1. Log into Adobe Places UI (The user interface to visually add and manage the POIs and libraries). 
 2. Click on the **Libraries** tab.
 3. Click **Create Library**.
 4. Type the name.
 5. Click **Confirm**.
 
-## Create a POI
+## Create a new POI in this library using Places UI
 
 A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
-1. Log in to Adobe Places Services with your Adobe ID.
+1. Log in to Adobe Places UI(https://places.adobe.com).
 2. In the top left side, click **Map**.
 3. In the map view, on the lower right side, click **+ New POI**. 
 4. Expand the **Details** section.
