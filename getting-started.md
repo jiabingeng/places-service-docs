@@ -2,14 +2,16 @@
 
 ## Get provisioned to use Adobe Places
 
-Places requires special provisioning context along with your regular AEP provisioning context.
+Places requires special provisioning context with your regular Adobe Experience Platform provisioning context. 
 
-* Ensure your organization is provisioned with Places in the Admin Console. If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
+To get provisioned, complete the following tasks:
+
+* Ensure your organization is provisioned with Places in the Admin Console.  If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
 * Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.
-* Ensure your mobile app property is configured in Adobe Launch with 'Places' extension installed. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
-* If your company has multiple Adobe organizations, ensure that you always choose the one provisioned for 'Places' for adding your POIs and Libraries.
+* Ensure your mobile app property is configured in Adobe Launch with Places extension installed.  For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
+* If your company has multiple Adobe organizations, ensure that you always choose the one provisioned for Places for adding your POIs and Libraries.
 
-To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/jiabingeng/places-developer-docs/tree/a3606cf2bdb7247bc7070e1bb66c4f6c40fdb3bb/.gitbook/assets/import.zip). For instructions on how to use the scripts, see the included readme file.
+To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/jiabingeng/places-developer-docs/tree/a3606cf2bdb7247bc7070e1bb66c4f6c40fdb3bb/.gitbook/assets/import.zip). For instructions on how to use the scripts, see the included README file.
 
 ## Understanding the Places UI
 
@@ -17,8 +19,8 @@ To access the Places UI, in a browser, go to [ https://places.adobe.com](%20http
 
 Here is some basic information to help you get familiarized with the UI:
 
-* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(`Find Me`\), and switching between the map view and satellite view.
-* By moving the "hand" pointer onto the map, you can double click to zoom in, or click and drag to recenter the map.
+* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
+* Double click to zoom in or click and drag to recenter the map.
 * You can also use the arrow keys to scroll the map
 * In the lower right corner, click the New Poi button to create a new point of interest \(POI\).
 
