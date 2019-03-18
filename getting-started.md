@@ -24,6 +24,13 @@ Here is some basic information to help you get familiarized with the UI:
 
 ![](.gitbook/assets/places_ui_intro.png)
 
+## Creating libraries and POIs
+
+You can create libraries and POIs in one of the following ways:
+
+* By using the web services. For more information, see Places web services.
+* By using the Places UI. For more information, see Places UI. 
+
 ## Create an empty library in the Places database by using the Places UI
 
 1. Log into Adobe Places UI \(The user interface to visually add and manage the POIs and libraries\). 
