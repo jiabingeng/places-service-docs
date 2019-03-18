@@ -23,11 +23,11 @@ Some intersting applications of 'Places' could be:
 
 Places comprises the following components:
 
-* Places web-service : Create and manage POIs using the REST APIs For more information, see[ Places database management](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
-* Places UI : Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom meta-data.
-* Places SDK : The muti-platform mobile API interface to integrate the location context in your mobile apps. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
-* Places rules: The geo-intelligent Adobe Launch rules which will enable you to trigger actions with entry and exit events. They also allow to use geo-attributes in conditions to personalize the exeprience. 
-* Places Monitor : The multi-platform mobile SDK which can be embedded in your mobile app to auto-monitor your users location changes and trigger Places rules. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+* Places web-service: Create and manage POIs using the REST APIs. For more information about the REST APIs, see[ Places U](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1)I.
+* Places UI: Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom meta-data.
+* Places SDK: The multi-platform mobile API interface to integrate the location context in your mobile apps.  For more information about the SDKs, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+* Places rules: The geo-intelligent Adobe Launch rules which will enable you to trigger actions with entry and exit events. They also allow to use geo-attributes in conditions to personalize the experience. 
+* Places Monitor: The multi-platform mobile SDK which can be embedded in your mobile app to auto-monitor your users location changes and trigger Places rules.  For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 
 ## Terminology
 
