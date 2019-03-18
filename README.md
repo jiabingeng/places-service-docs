@@ -1,6 +1,6 @@
 # Overview
-Location is an important context for understanding the engagement of mobile users. Using this context the mobile apps developers can enhance the app designs by making it more personalized and engaging. 
-'Places' is a geo-location service that enables mobile app developers to understand the location context using rich and easy-to-use SDK interfaces accompanied by a flexible database of Points of Interests \(POIs\).
+
+Location is an important context for understanding the engagement of mobile users. Using this context the mobile apps developers can enhance the app designs by making it more personalized and engaging. 'Places' is a geo-location service that enables mobile app developers to understand the location context using rich and easy-to-use SDK interfaces accompanied by a flexible database of Points of Interests \(POIs\).
 
 'Places' in Adobe's experience cloud geo-location service allows you to achieve the following:
 
@@ -12,7 +12,7 @@ Location is an important context for understanding the engagement of mobile user
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context can make the mobile engagement more enriching.
 
-Some intersting applications of 'Places' could be: 
+Some intersting applications of 'Places' could be:
 
 * Send a real time notification when someone enters a POI. "Hey..welcome to the stadium". 
 * Analyze foot traffic of your own stores versus your competitor stores.
@@ -29,8 +29,6 @@ Places comprises the following components:
 * Places rules: The geo-intelligent Adobe Launch rules which will enable you to trigger actions with entry and exit events. They also allow to use geo-attributes in conditions to personalize the exeprience. 
 * Places Monitor : The multi-platform mobile SDK which can be embedded in your mobile app to auto-monitor your users location changes and trigger Places rules. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 
-
-
 ## Terminology
 
 Here are some common terms that are used in the Places documentation:
@@ -40,7 +38,6 @@ Here are some common terms that are used in the Places documentation:
 * A **beacon** is a type of POI. This type is a physical device that represents a location by emitting a low power bluetooth signal. Beacons support is coming in future releases.
 * A **library** is a collection of POIs which grouped together to easily attach rules to a set instead of a single POI. 
 * A SDK **extension**, is the Adobe Launch extension that's required to integrate the 'Places' into your mobile apps. It's used in conjunction with the other AEP SDKs to add location context to your experiences.
-
 * An **organization** is the Adobe entity that identifies your company within Adobe Experience Cloud. Most often, an organization is your company name. However, we allow a company to have more than one organization. The organization administrator can configure groups and users and configure single sign-on functionality.
 * The **orgID** is the ID that represents your organization across AEP.  For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.  For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).

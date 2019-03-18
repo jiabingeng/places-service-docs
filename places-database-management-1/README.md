@@ -1,4 +1,4 @@
-# Places database management
+# Places UI
 
 POIs are created and managed in the Places database. This can be done using APIs, or using our product interface. 
 
