@@ -4,8 +4,8 @@
 
 Places requires special provisioning context along with your regular AEP provisioning context.
 
-* Ensure your organization is provisioned with Places in the Admin Console. If you are not the Adobe administrator, contact the administrator to ensure the 'Places' context in Admin Console.
-* Ensure you are listed as a user under the 'Places' and 'Launch' product contexts in the Admin Console.
+* Ensure your organization is provisioned with Places in the Admin Console. If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
+* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.
 * Ensure your mobile app property is configured in Adobe Launch with 'Places' extension installed. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
 * If your company has multiple Adobe organizations, ensure that you always choose the one provisioned for 'Places' for adding your POIs and Libraries.
 
@@ -17,10 +17,10 @@ To access the Places UI, in a browser, go to [ https://places.adobe.com](%20http
 
 Here is some basic information to help you get familiarized with the UI:
 
-* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(`Find Me`\), and switching between Map View and Satellite View.
+* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(`Find Me`\), and switching between the map view and satellite view.
 * By moving the "hand" pointer onto the map, you can double click to zoom in, or click and drag to recenter the map.
 * You can also use the arrow keys to scroll the map
-* In the lower right corner, there is a button to create a new POI. Don't click it just yet; we need to create a library to hold your POIs first.
+* In the lower right corner, click the New Poi button to create a new point of interest \(POI\).
 
 ![](.gitbook/assets/places_ui_intro.png)
 

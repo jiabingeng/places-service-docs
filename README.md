@@ -2,7 +2,7 @@
 
 Location is an important context for understanding the engagement of mobile users. Using this context the mobile apps developers can enhance the app designs by making it more personalized and engaging. 'Places' is a geo-location service that enables mobile app developers to understand the location context using rich and easy-to-use SDK interfaces accompanied by a flexible database of Points of Interests \(POIs\).
 
-'Places' in Adobe's experience cloud geo-location service allows you to achieve the following:
+Places in Adobe's experience cloud geo-location service allows you to achieve the following:
 
 * Create and Manage a database of POIs that can be leveraged with other Experience Cloud solutions.
 * Attach custom meta-data to the POIs to make them richer and more meanigful by specifying additional attributes. 
@@ -23,7 +23,7 @@ Some intersting applications of 'Places' could be:
 
 Places comprises the following components:
 
-* Places web-service: Create and manage POIs using the REST APIs. For more information about the REST APIs, see[ Places U](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1)I.
+* Places web-service: Create and manage POIs using the REST APIs. For more information about the REST APIs, see [Places UI](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
 * Places UI: Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom meta-data.
 * Places SDK: The multi-platform mobile API interface to integrate the location context in your mobile apps.  For more information about the SDKs, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 * Places rules: The geo-intelligent Adobe Launch rules which will enable you to trigger actions with entry and exit events. They also allow to use geo-attributes in conditions to personalize the experience. 
