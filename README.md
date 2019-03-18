@@ -25,9 +25,9 @@ Places comprises the following components:
 
 * Places web service: Create and manage POIs using the REST APIs. For more information about the REST APIs, see [Places UI](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
 * Places UI: Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom meta-data.
-* Places SDK: The multi-platform mobile API interface to integrate the location context in your mobile apps.  For more information about the SDKs, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+* Places SDK: The multi-platform mobile API interface to integrate the location context in your mobile apps.  For more information about the SDKs, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 * Places rules: The geo-intelligent Adobe Launch rules that enable you to trigger actions with entry and exit events.  The rules also allow you to use geo-attributes in conditions to personalize the experience. 
-* Places Monitor: The multi-platform mobile SDK which can be embedded in your mobile app to auto-monitor your users location changes and trigger Places rules.  For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+* Places Monitor: The multi-platform mobile SDK which can be embedded in your mobile app to auto-monitor your users location changes and trigger Places rules.  For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 
 ## Terminology
 
