@@ -117,7 +117,7 @@ To add users to Places and Launch, complete the following steps:
 
     a. On the Places Core Services card, verify the following:
 
-      • Two dots are displayed at the bottom of the card.
+      * Two dots are displayed at the bottom of the card.
  
       * Click the dot on the right so “Assign Developers” appears at the bottom of the card.
 
