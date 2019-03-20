@@ -28,8 +28,7 @@ To add users to Places and Launch, complete the following steps:
 
    If they are displayed, Places and Launch have been provisioned for your organization. If they have not been provisioned for your organization, after you complete the Beta survey and sign up for Beta, the request is made to the Provisioning team.
 
-7. Set up a Launch profile.  
-   This step allows the users who were added to the profile, to use Launch and its mobile properties with the Adobe Experience Platform SDK.
+7. Set up a Launch profile, which allows the users who were added to the profile, to use Launch and its mobile properties with the Adobe Experience Platform SDK.
 
    a. In the menu bar, click **Product**.
 
