@@ -41,19 +41,25 @@ To add users to Places and Launch, complete the following steps:
 
      c. Verify that the default permission is displayed.
 
-     d. Set the permissions for the Launch profile.
+     d. Set the permissions for the Launch profile:
 
-         If you have added users to Launch, you might have multiple profiles. Ensure that you select the correct profile.
+        If you have added users to Launch, you might have multiple profiles. Ensure that you select the correct profile.
 
-   1. Click on the name of the profile.
-   2. Click the Permissions tab.
-   3. Click Edit next to Property Rights.
-   4. In the left pane, click + Add all. This step moves the available permissions to the included permissions list.
-   5. Click Company Rights.
-   6. In the left pane, click + Manage Properties.
-   7. Click Save.
+         i. Click on the name of the profile.
 
-      You have successfully added permissions to the profile that you created.
+        ii. Click the Permissions tab.
+     
+       iii. Click Edit next to Property Rights.
+
+        iv. In the left pane, click + Add all. This step moves the available permissions to the included permissions list.
+
+         v. Click Company Rights.
+ 
+        vi. In the left pane, click + Manage Properties.
+ 
+       vii. Click Save.
+
+       You have successfully added permissions to the profile that you created.
 
 8. Add a user to the Launch profile.
 
@@ -61,8 +67,8 @@ To add users to Places and Launch, complete the following steps:
 
    b. On the Adobe Experience Platform Launch card, verify the following:
 
-   * Two dots are displayed at the bottom of the card.
-   * The dot on the left is black.
+       * Two dots are displayed at the bottom of the card.
+       * The dot on the left is black.
 
      If the dot on the right side is black, you can only add developers. To add a user, click the dot on the left.
 
