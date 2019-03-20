@@ -35,15 +35,15 @@ To add users to Places and Launch, complete the following steps:
 
    This process allows users to use Launch and its properties with the Adobe Experience Platform SDK.
 
-   a. In the menu bar, click Product.
+     a. In the menu bar, click Product.
 
-   b. In the left pane, in the list of products, click Adobe Experience Platform Launch.
+     b. In the left pane, in the list of products, click Adobe Experience Platform Launch.
 
-   c. Verify that the default permission is displayed.
+     c. Verify that the default permission is displayed.
 
-   d. Set the permissions for the Launch profile.
+     d. Set the permissions for the Launch profile.
 
-   If you have added users to Launch, you might have multiple profiles. Ensure that you select the correct profile.
+         If you have added users to Launch, you might have multiple profiles. Ensure that you select the correct profile.
 
    1. Click on the name of the profile.
    2. Click the Permissions tab.
