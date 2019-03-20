@@ -43,32 +43,35 @@ To add users to Places and Launch, complete the following steps:
 
      d. Set the permissions for the Launch profile:
 
-        If you have added users to Launch, you might have multiple profiles. Ensure that you select the correct profile.
+      If you have added users to Launch, you might have multiple profiles. 
 
-         i. Click on the name of the profile.
+8. Select the correct profile:
 
-        ii. Click the Permissions tab.
+     a. Click on the name of the profile.
+
+     b. Click the Permissions tab.
      
-       iii. Click Edit next to Property Rights.
+     c. Click Edit next to Property Rights.
 
-        iv. In the left pane, click + Add all. This step moves the available permissions to the included permissions list.
+     d. In the left pane, click + Add all. This step moves the available permissions to the included permissions list.
 
-         v. Click Company Rights.
+     e. Click Company Rights.
  
-        vi. In the left pane, click + Manage Properties.
+     f. In the left pane, click + Manage Properties.
  
-       vii. Click Save.
+     g. Click Save.
 
-       You have successfully added permissions to the profile that you created.
+     You have successfully added permissions to the profile that you created.
 
-8. Add a user to the Launch profile.
+9. Add a user to the Launch profile.
 
    a. In the menu bar, click Overview.
 
    b. On the Adobe Experience Platform Launch card, verify the following:
 
-       * Two dots are displayed at the bottom of the card.
-       * The dot on the left is black.
+     * Two dots are displayed at the bottom of the card.
+      
+     * The dot on the left is black.
 
      If the dot on the right side is black, you can only add developers. To add a user, click the dot on the left.
 
@@ -78,9 +81,9 @@ To add users to Places and Launch, complete the following steps:
 
    e. Complete one of the following steps:
 
-       • If you are adding a new user, click New user, and enter the user’s first and last name.
-
-       • If you are adding an existing user, click the user’s name that is displayed.
+     * If you are adding a new user, click New user, and enter the user’s first and last name.
+  
+     * If you are adding an existing user, click the user’s name that is displayed.
 
    f. In the Please select a profile for this product drop-down list, select the profile that you edited earlier.
 
@@ -92,9 +95,9 @@ To add users to Places and Launch, complete the following steps:
 
    a. On the Places Core Services card, verify the following:
 
-       • Two dots are displayed at the bottom of the card.
+     * Two dots are displayed at the bottom of the card.
 
-       • The dot on the left is black.
+     * The dot on the left is black.
 
    b. Click + Assign Users.
 
@@ -102,9 +105,9 @@ To add users to Places and Launch, complete the following steps:
 
    d. Complete one of the following steps:
 
-       • If you are adding a new user, click New user, and enter the user’s first and last name.
+     * If you are adding a new user, click New user, and enter the user’s first and last name.
 
-       • If you are adding an existing user, click the user’s name that is displayed.
+     * If you are adding an existing user, click the user’s name that is displayed.
 
    e. In the Please select a profile for this product drop-down list, select the Places profile.
 
@@ -114,9 +117,9 @@ To add users to Places and Launch, complete the following steps:
 
     a. On the Places Core Services card, verify the following:
 
-        • Two dots are displayed at the bottom of the card.
-
-        • Click the dot on the right so “Assign Developers” appears at the bottom of the card.
+      • Two dots are displayed at the bottom of the card.
+ 
+      * Click the dot on the right so “Assign Developers” appears at the bottom of the card.
 
     b. Click + Assign Developers.
 
@@ -124,9 +127,9 @@ To add users to Places and Launch, complete the following steps:
 
     d. Complete one of the following steps:
 
-        • If you are adding a new user, click New user, and enter the user’s first and last name.
+      * If you are adding a new user, click New user, and enter the user’s first and last name.
 
-        • If you are adding an existing user, click the user’s name that is displayed.
+      * If you are adding an existing user, click the user’s name that is displayed.
 
     e. In the Please select a profile for this product drop-down list, select the Places profile.
 
