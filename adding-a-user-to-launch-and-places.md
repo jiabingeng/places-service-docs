@@ -14,21 +14,20 @@ If this is the first time you are adding a user, complete the following steps to
 
 **Important**: Only org administrators can access the Admin Console and add the users.
 
-To add users to Places and Launch, complete the following steps:
-
 ## 1. Verify that Places and Launch are provisioned 
 
 1. Log in to your Experience Cloud organization.
 2. In the top-right side, click the Experience Cloud shell switcher.
-3. Under Platform, click Administration.
+3. Under **Platform**, click **Administration**.
 
-   If you do not see Administration in the list, you are not an admin, and you must contact your org admin to complete this procedure.
+   If you do not see **Administration** in the list, you are not an admin, and you must contact your org admin to complete this procedure.
 
-4. In the Experience Cloud Administration page, on the Admin Console card, click **Take me there**.
-5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the org from the drop-down list. If you have access to several organizations, verify that the correct org is selected. If you do not have access to an organization, it means that you do not have admin access to that organization.
-6. Verify that the cards for Adobe Experience Platform Launch and Places Core Services are displayed.
+4. In the Experience Cloud Administration page, on the **Admin Console** card, click **Take me there**.
+5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the org from the drop-down list. If you have access to several organizations, verify that the correct org is selected.  **Important**: If you do not have access to an organization, it means that you do not have admin access to that organization.
+6. Verify that the cards for **Adobe Experience Platform Launch** and **Places Core Services** are displayed.
 
-   If they are displayed, Places and Launch have been provisioned for your organization. If they have not been provisioned for your organization, after you complete the Beta survey and sign up for Beta, the request is made to the Provisioning team.
+   If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.   
+   **Important**: During the Beta period, after you complete the Beta survey, the request is made to the Provisioning team.
 
 ## 2. Set up the profile and add the permissions
 
@@ -40,7 +39,7 @@ To add users to Places and Launch, complete the following steps:
 
    c. Verify that the default permission is displayed.
 
-   d. Set the permissions for the Launch profile:
+   d. Set the permissions for the Launch profile.
 
    If you have added users to Launch, you might have multiple profiles.
 
@@ -61,7 +60,9 @@ To add users to Places and Launch, complete the following steps:
 
    g. Click **Save**.
 
-   You have successfully added permissions to the profile that you created.
+**Important**: For Places, there is a default profile, but you do not have to add any permission. 
+
+You have successfully added permissions to the profile that you created.
 
 ## 3. Add a user to your Launch and Places profiles
 
@@ -76,7 +77,7 @@ To add users to Places and Launch, complete the following steps:
 
      If the dot on the right side is black, you can only add developers. To add a user, click the dot on the left.
 
-   c. click **+ Add Users**.
+   c. Click **+ Add Users**.
 
    d. Enter the user’s Adobe ID.
 
