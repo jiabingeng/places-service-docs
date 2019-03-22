@@ -18,7 +18,7 @@ To help you complete a batch import of your POIs from a `.csv` file into your or
 You can create libraries and POIs in one of the following ways:
 
 * By using the web services. For more information, see Places web services.
-* By using the Places UI. For more information, see Places UI. 
+* By using the Places UI. For more information, see [Places UI](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1). 
 
 ## Create an empty library in the Places database by using the Places UI
 
