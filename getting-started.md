@@ -11,8 +11,6 @@ To get provisioned, complete the following tasks:
 * Ensure your mobile app property is configured in Adobe Launch with the Places extension installed.  For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
 * If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places. This allows you to add your POIs and Libraries.
 
-To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/adobe/places-scripts). For instructions on how to use the scripts, see the included README file.
-
 ## Creating libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
