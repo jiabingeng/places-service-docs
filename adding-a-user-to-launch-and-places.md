@@ -7,7 +7,7 @@ To allow users to access places.adobe.com, they need to be added to Places Core 
   * Approve
   * Publish
   * Manage Extensions
-  * Damage Environments\)
+  * Damage Environments
 * Manage Properties permission under Company Rights 
 
 If this is the first time you are adding a user, complete the following steps to add users to Launch and Places. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
