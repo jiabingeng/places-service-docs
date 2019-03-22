@@ -42,6 +42,19 @@ Here are some common terms that are used in the Places documentation:
 * The **orgID** is the ID that represents your organization across Adobe Experience Platform.   For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
+## Understanding the Places UI
+
+To access the Places UI, in a browser, go to [ https://places.adobe.com](%20https://places.adobe.com) and log in with your Adobe ID. 
+
+Here is some basic information to help you get familiarized with the UI:
+
+* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
+* Double click to zoom in or click and drag to recenter the map.
+* You can also use the arrow keys to scroll the map
+* In the lower right corner, click the New Poi button to create a new point of interest \(POI\).
+
+![](.gitbook/assets/places_ui_intro.png)
+
 ## Places workflow
 
 Here is a high-level view of the Places workflow:

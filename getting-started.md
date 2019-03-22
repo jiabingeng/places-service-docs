@@ -13,19 +13,6 @@ To get provisioned, complete the following tasks:
 
 To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/adobe/places-scripts). For instructions on how to use the scripts, see the included README file.
 
-## Understanding the Places UI
-
-To access the Places UI, in a browser, go to [ https://places.adobe.com](%20https://places.adobe.com) and log in with your Adobe ID. 
-
-Here is some basic information to help you get familiarized with the UI:
-
-* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
-* Double click to zoom in or click and drag to recenter the map.
-* You can also use the arrow keys to scroll the map
-* In the lower right corner, click the New Poi button to create a new point of interest \(POI\).
-
-![](.gitbook/assets/places_ui_intro.png)
-
 ## Creating libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
