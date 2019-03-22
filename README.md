@@ -1,6 +1,6 @@
 # Overview
 
-Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a  more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of Points of Interests \(POIs\).
+Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests \(POIs\).
 
 Places in Adobe's Experience Cloud geo-location service allows you to achieve the following:
 

@@ -60,7 +60,7 @@ If this is the first time you are adding a user, complete the following steps to
 
    g. Click **Save**.
 
-**Important**: For Places, there is a default profile, but you do not have to add any permission. 
+**Important**: For Places, there is a default profile, but you do not have to add any permissions. 
 
 You have successfully added permissions to the profile that you created.
 
