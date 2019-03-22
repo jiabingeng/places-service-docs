@@ -68,7 +68,11 @@ To set up the profile and add the permissions:
 
 You have successfully added permissions to the profile that you created.
 
-## 3. Add a user to your Launch and Places profiles
+## 3. Add a user or a developer to your Launch and Places profiles
+
+You can add a user and/or a developer to your Launch and Places profiles.
+
+### Add a user
 
 To add a user to your Launch and Places profiles:
 
@@ -118,7 +122,7 @@ To add a user to your Launch and Places profiles:
 
    f. Click **Save**.
 
-## 4. Add a developer
+### Add a developer
 
 To add a developer:
 
