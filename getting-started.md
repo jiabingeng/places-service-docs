@@ -6,10 +6,10 @@ Places requires special provisioning context with your regular Adobe Experience 
 
 To get provisioned, complete the following tasks:
 
-* Ensure your organization is provisioned with Places in the Admin Console.  If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
-* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.
-* Ensure your mobile app property is configured in Adobe Launch with Places extension installed.  For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
-* If your company has multiple Adobe organizations, ensure that you always choose the one provisioned for Places for adding your POIs and Libraries.
+* In the Admin Console, ensure that your organization is provisioned with Places.  If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
+* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console. For more information, see Adding a user to Launch and Places.
+* Ensure your mobile app property is configured in Adobe Launch with the Places extension installed.  For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
+* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places. This allows you to add your POIs and Libraries.
 
 To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, we created a set of Python scripts. You can download the zip file of these scripts [here](https://github.com/adobe/places-scripts). For instructions on how to use the scripts, see the included README file.
 

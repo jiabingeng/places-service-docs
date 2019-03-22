@@ -23,7 +23,7 @@ Here are some of the ways you can use Places:
 
 Places comprises the following components:
 
-* **Places web service** You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see Places web service.
+* **Places web service** You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web service](https://launch.gitbook.io/places-services-by-adobe-documentation/places-rest-apis).
 * **Places UI** Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
 * **Places SDK** The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 * **Places rules** The geo-intelligent Adobe Launch rules that enable you to trigger actions with entry and exit events. The rules also allow you to use geo-attributes in conditions to personalize the experience. 
