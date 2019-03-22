@@ -16,6 +16,8 @@ If this is the first time you are adding a user, complete the following steps to
 
 ## 1. Verify that Places and Launch are provisioned 
 
+To verify that Places and Launch are provisioned:
+
 1. Log in to your Experience Cloud organization.
 2. In the top-right side, click the Experience Cloud shell switcher.
 3. Under **Platform**, click **Administration**.
@@ -30,6 +32,8 @@ If this is the first time you are adding a user, complete the following steps to
    **Important**: During the Beta period, after you complete the Beta survey, the request is made to the Provisioning team.
 
 ## 2. Set up the profile and add the permissions
+
+To set up the profile and add the permissions:
 
 1. Set up a Launch profile, which allows the users who were added to the profile, to use Launch and its mobile properties with the Adobe Experience Platform SDK.
 
@@ -65,6 +69,8 @@ If this is the first time you are adding a user, complete the following steps to
 You have successfully added permissions to the profile that you created.
 
 ## 3. Add a user to your Launch and Places profiles
+
+To add a user to your Launch and Places profiles:
 
 1. Add a user to the Launch profile.
 
@@ -113,6 +119,8 @@ You have successfully added permissions to the profile that you created.
    f. Click **Save**.
 
 ## 4. Add a developer
+
+To add a developer:
 
 1. For users who also need access to the Places REST API, you need to add them as a Developer.
 
