@@ -37,6 +37,8 @@ If this is the first time you are adding a user, complete the following steps to
 
 ## 2. Set up the profile and add the permissions
 
+To set up the profile and add the permissions:
+
 1. Set up a Launch profile, which allows the users who are added to the profile, to use Launch and its mobile properties with the Adobe Experience Platform SDK.
 
    a. In the menu bar, click **Product**.
