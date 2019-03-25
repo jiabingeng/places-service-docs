@@ -132,25 +132,24 @@ For users who also need access to the Places REST API, you need to add them as a
 
 To add a developer:
 
-1. For users who also need access to the Places REST API, you need to add them as a Developer to Places Core Services.
 
-   a. On the **Places Core Services** card, verify the following:
+1. On the **Places Core Services** card, verify the following:
 
    * Two dots are displayed at the bottom of the card.
    * Click the dot on the right so **Assign Developers** appears at the bottom of the card.
 
-   b. Click **+ Assign Developers**.
+2. Click **+ Assign Developers**.
 
-   c. Enter the user’s Adobe ID.
+3. Enter the user’s Adobe ID.
 
-   d. Complete one of the following steps:
+4. Complete one of the following steps:
 
    * If you are adding a new user, click **New user**, and enter the user’s first and last name.
    * If you are adding an existing user, click the user’s name that is displayed.
 
-   e. In the **Please select a profile for this product** drop-down list, select the Places profile.
+5. In the **Please select a profile for this product** drop-down list, select the Places profile.
 
-   f. Click **Save**.
+6. Click **Save**.
 
 Users receive an email notifying them that they have access to Launch and can now log into the Launch \([launch.adobe.com](https://launch.adobe.com)\) or the Places \([places.adobe.com](https://places.adobe.com)\) UIs for this organization. If you completed step 4, the user can also log in to the Adobe I/O console \([console.adobe.io](https://console.adobe.io)\) to create a Places Integration and use the Places REST API.
 
