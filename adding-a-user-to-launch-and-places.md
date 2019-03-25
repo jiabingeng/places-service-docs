@@ -20,7 +20,7 @@ To verify that Places and Launch are provisioned:
 
 1. Log in to your Experience Cloud organization.
 2. In the top-right side, click the Experience Cloud shell switcher.
-   1. ![places\_shell\_switcher](.gitbook/assets/places_shell_switcher.png)
+   ![places\_shell\_switcher](.gitbook/assets/places_shell_switcher.png)
 3. Under **Platform**, click **Administration**.
 
    If you do not see **Administration** in the list, you are not an admin, and you must contact your org admin to complete this procedure.
@@ -44,9 +44,9 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **Adobe Experience Platform Launch**.
 
-   c. The Launch profile\(s\) will appear on the right.
-
-       Launch has a default profile called, _Launch - \(org name\)_. If you previously added users to Launch before, you might see multiple profiles listed.
+   c. The Launch profile\(s\) will appear on the right. 
+   
+      Launch has a default profile called, _Launch - \(org name\)_. If you previously added users to Launch before, you might see multiple profiles listed.
 
 2. Select the correct profile:
 
@@ -57,7 +57,7 @@ To set up the profile and add the permissions:
    c. Click **Edit** next to **Property Rights**.
 
    d. In the left pane, click **+ Add all**.  
-       This step moves all the available permissions to the included permissions list.
+      This step moves all the available permissions to the included permissions list.
 
    e. Click **Company Rights**.
 
