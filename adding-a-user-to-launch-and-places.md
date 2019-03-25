@@ -47,7 +47,7 @@ To set up the profile and add the permissions:
 
    c. The Launch profile(s) will appear on the right. 
 
-   Launch has a default profile called, Launch - {org name}. If you have added users to Launch previously, you might have multiple profiles.
+   Launch has a default profile called, Launch - {org name}. If you have previously added users to Launch, you might have multiple profiles listed.
 
 2. Select the correct profile:
 
