@@ -32,7 +32,8 @@ To verify that Places and Launch are provisioned:
    ![places\_provisioned](.gitbook/assets/places_provisioned.png)  
   
    If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.   
-   **Important**: During the Beta period, after you complete the [Beta survey](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u), the request is made to the Provisioning team.
+
+**Important**: During the Beta period, after you complete the [Beta survey](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u), the request is made to the Provisioning team.
 
 ## 2. Set up the profile and add the permissions
 
@@ -44,8 +45,8 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **Adobe Experience Platform Launch**.
 
-   c. The Launch profile\(s\) will appear on the right. 
-   
+      The Launch profile\(s\) appears on the right. 
+      
       Launch has a default profile called, _Launch - \(org name\)_. If you previously added users to Launch before, you might see multiple profiles listed.
 
 2. Select the correct profile:
@@ -83,8 +84,8 @@ To add a user to your Launch and Places profiles:
 
    b. On the **Adobe Experience Platform Launch** card, verify the following:
 
-   * Two dots are displayed at the bottom of the card.
-   * The dot on the left is black.
+      * Two dots are displayed at the bottom of the card.
+      * The dot on the left is black.
 
      If the dot on the right side is black, you can only add developers. To add a user, click the dot on the left.
 
@@ -94,8 +95,8 @@ To add a user to your Launch and Places profiles:
 
    e. Complete one of the following steps:
 
-   * If you are adding a new user, click **New user**, and enter the user’s first and last name.
-   * If you are adding an existing user, click the user’s name that is displayed.
+      * If you are adding a new user, click **New user**, and enter the user’s first and last name.
+      * If you are adding an existing user, click the user’s name that is displayed.
 
    f. In the **Please select a profile for this product** drop-down list, select the profile that you edited earlier.
 
@@ -116,8 +117,8 @@ To add a user to your Launch and Places profiles:
 
    d. Complete one of the following steps:
 
-   * If you are adding a new user, click **New user,** and enter the user’s first and last name.
-   * If you are adding an existing user, click the user’s name that is displayed.
+      * If you are adding a new user, click **New user,** and enter the user’s first and last name.
+      * If you are adding an existing user, click the user’s name that is displayed.
 
    e. In the **Please select a profile for this product** drop-down list, select the Places profile.
 
@@ -131,8 +132,8 @@ To add a developer:
 
    a. On the **Places Core Services** card, verify the following:
 
-   * Two dots are displayed at the bottom of the card.
-   * Click the dot on the right so **Assign Developers** appears at the bottom of the card.
+      * Two dots are displayed at the bottom of the card.
+      * Click the dot on the right so **Assign Developers** appears at the bottom of the card.
 
    b. Click **+ Assign Developers**.
 
@@ -140,8 +141,8 @@ To add a developer:
 
    d. Complete one of the following steps:
 
-   * If you are adding a new user, click **New user**, and enter the user’s first and last name.
-   * If you are adding an existing user, click the user’s name that is displayed.
+      * If you are adding a new user, click **New user**, and enter the user’s first and last name.
+      * If you are adding an existing user, click the user’s name that is displayed.
 
    e. In the **Please select a profile for this product** drop-down list, select the Places profile.
 
