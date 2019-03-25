@@ -28,7 +28,7 @@ To verify that Places and Launch are provisioned:
    If you do not see **Administration** in the list, you are not an admin, and you must contact your org admin to complete this procedure.
 
 4. In the Experience Cloud Administration page, on the **Admin Console** card, click **Take me there**.
-5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page.  This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the correct org from the drop-down list.  **Important**: If you do not have access to an organization, it means that you do not have admin access to that organization.
+5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page.   This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the correct org from the drop-down list.   **Important**: If you do not have access to an organization, it means that you do not have admin access to that organization.
 6. Verify that the cards for **Adobe Experience Platform Launch** and **Places Core Services** are displayed.
 
    ![places\_provisioned](.gitbook/assets/places_provisioned.png)
@@ -47,9 +47,7 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **Adobe Experience Platform Launch**.
 
-   The Launch profile\(s\) appears on the right.
-
-   Launch has a default profile called, _Launch - \(org name\)_. If you previously added users to Launch before, you might see multiple profiles listed.
+   The Launch profile\(s\) appear on the right. Launch has a default profile called _Launch - \(org name\)_. If you previously added users to Launch, you might see multiple profiles listed.
 
 2. Select the correct profile:
 
@@ -132,23 +130,15 @@ For users who also need access to the Places REST API, you need to add them as a
 
 To add a developer:
 
-
 1. On the **Places Core Services** card, verify the following:
-
    * Two dots are displayed at the bottom of the card.
    * Click the dot on the right so **Assign Developers** appears at the bottom of the card.
-
 2. Click **+ Assign Developers**.
-
 3. Enter the user’s Adobe ID.
-
 4. Complete one of the following steps:
-
    * If you are adding a new user, click **New user**, and enter the user’s first and last name.
    * If you are adding an existing user, click the user’s name that is displayed.
-
 5. In the **Please select a profile for this product** drop-down list, select the Places profile.
-
 6. Click **Save**.
 
 Users receive an email notifying them that they have access to Launch and can now log into the Launch \([launch.adobe.com](https://launch.adobe.com)\) or the Places \([places.adobe.com](https://places.adobe.com)\) UIs for this organization. If you completed step 4, the user can also log in to the Adobe I/O console \([console.adobe.io](https://console.adobe.io)\) to create a Places Integration and use the Places REST API.
