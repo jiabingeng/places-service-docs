@@ -41,7 +41,7 @@ To verify that Places and Launch are provisioned:
 
 To set up the profile and add the permissions:
 
-1. Set up a Launch profile, which allows the users who were added to the profile, to use Launch and its mobile properties with the Adobe Experience Platform SDK.
+1. Set up a Launch profile, which allows the users who were added to the profile, use Launch and its mobile properties with the Adobe Experience Platform SDK.
 
    a. In the menu bar, click **Product**.
 
