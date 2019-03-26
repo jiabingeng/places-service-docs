@@ -28,7 +28,7 @@ To verify that Places and Launch are provisioned:
    If you do not see **Administration** in the list, you are not an admin, and you must contact your org admin to complete this procedure.
 
 4. In the Experience Cloud Administration page, on the **Admin Console** card, click **Take me there**.
-5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page.   This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the correct org from the drop-down list.   **Important**: If you do not have access to an organization, it means that you do not have admin access to that organization.
+5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page.   This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the correct org from the drop-down list.    **Important**: If you do not have access to an organization, it means that you do not have admin access to that organization. 
 6. Verify that the cards for **Adobe Experience Platform Launch** and **Places Core Services** are displayed.
 
    ![places\_provisioned](.gitbook/assets/places_provisioned.png)
@@ -47,7 +47,7 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **Adobe Experience Platform Launch**.
 
-   The Launch profile\(s\) appear on the right. Launch has a default profile called _Launch - \(org name\)_. If you previously added users to Launch, you might see multiple profiles listed.
+   The Launch profile appears on the right. Launch has a default profile called _Launch - \(org name\)_. If you previously added users to Launch, you might see multiple profiles listed.
 
 2. Select the correct profile:
 
