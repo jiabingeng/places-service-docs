@@ -47,7 +47,10 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **Adobe Experience Platform Launch**.
 
-   The Launch profile appears on the right. Launch has a default profile called _Launch - \(org name\)_. If you previously added users to Launch, you might see multiple profiles listed.
+   * The Launch profile appears on the right. 
+   * Launch has a default profile called _Launch - \(org name\)_. 
+   
+   If you previously added users to Launch, you might see multiple profiles listed.
 
 2. Select the correct profile:
 
@@ -57,8 +60,9 @@ To set up the profile and add the permissions:
 
    c. Click **Edit** next to **Property Rights**.
 
-   d. In the left pane, click **+ Add all**.  
-   This step moves all the available permissions to the included permissions list.
+   d. In the left pane, click **+ Add all**.
+
+      This step moves all the available permissions to the included permissions list.
 
    e. Click **Company Rights**.
 
