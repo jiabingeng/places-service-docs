@@ -49,7 +49,7 @@ To set up the profile and add the permissions:
 
    * The Launch profile appears on the right. 
    * Launch has a default profile called _Launch - \(org name\)_. 
-   
+
    If you previously added users to Launch, you might see multiple profiles listed.
 
 2. Select the correct profile:
@@ -62,7 +62,7 @@ To set up the profile and add the permissions:
 
    d. In the left pane, click **+ Add all**.
 
-      This step moves all the available permissions to the included permissions list.
+   This step moves all the available permissions to the included permissions list.
 
    e. Click **Company Rights**.
 
