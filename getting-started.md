@@ -11,6 +11,10 @@ To get provisioned, complete the following tasks:
 * Ensure your mobile app property is configured in Adobe Launch with the Places extension installed.  For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
 * If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places. This allows you to add your POIs and Libraries.
 
+## Configure the Places extension and Places Monitor extension
+
+For more information about configuring the Places extension and Monitor extension, see [Places extension ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension)and [Places Monitor extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-monitoring-extension).
+
 ## Creating libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
