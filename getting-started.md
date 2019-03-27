@@ -52,7 +52,7 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 16. Select or enter a latitude or longitude.
 17. Click **Drop Pin on Map**.
 18. Expand the **Metadata** section and click **Add Metadata.**
-19. **Type the key name.**
-20. **Type the key value.**
+19. Type the key name.
+20. Type the key value.
 21. Click **Confirm**.
 
