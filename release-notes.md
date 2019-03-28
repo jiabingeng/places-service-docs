@@ -33,7 +33,7 @@ For more information about the Places extension, see [Adobe Places \(Beta\)](htt
 
 You can use the Places APIs do do the following:
 
-* Developers can use the Places APIs to populate and update their list of POIs. 
+* Allow developers to populate and update their list of POIs. 
 * Build your own UI or integrate with an existing POI database. 
 * Use the Places API `batch` endpoints to do a bulk import of POIs.  A python utility is provided with the APIs. 
 
