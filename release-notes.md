@@ -37,10 +37,6 @@ For more information about the Places APIs, see [Places REST API](https://launch
 
 ### Coming Soon
 
-#### Places Monitor Extension 
-
-In the next couple weeks, we will be launching the Places Monitor extension, which will automatically handle the management of device location in relation to POIs of POIs in Android and iOS.
-
 #### Analytics Integration
 
 The Analytics Launch extension is being updated to automatically add location context data from your Places database to all outgoing Analytics calls when a user is within a POI \(Passive calls\). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit \(Active calls\).
