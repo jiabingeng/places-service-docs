@@ -1,6 +1,6 @@
 # Manage POIs in the Places UI
 
-## Defining a geofence POI:
+## Defining a geofence POI
 
 Geofences are a type of POI and are defined in the database based by the following keys:
 
