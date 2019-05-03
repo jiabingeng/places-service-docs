@@ -4,7 +4,7 @@
 
 ## Request
 
-`GET https://api-places-dev.adobe.io/places/placesapi/v1/libraries/rank`
+`GET https://api-places.adobe.io/places/placesapi/v1/libraries/rank`
 
 ## Headers
 
