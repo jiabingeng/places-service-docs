@@ -4,7 +4,7 @@ A PUT method that allows you to set a rank order on all of your libraries.
 
 ## Request
 
-`PUT https://api-places-dev.adobe.io/places/placesapi/v1/libraries/rank`
+`PUT https://api-places.adobe.io/places/placesapi/v1/libraries/rank`
 
 ## Headers
 
