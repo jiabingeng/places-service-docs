@@ -2,7 +2,7 @@
 
 ## Get provisioned to use Adobe Places
 
-Places requires special provisioning context with your regular Adobe Experience Platform provisioning context. 
+Places requires special provisioning context with your regular Adobe Experience Platform provisioning context.
 
 To get provisioned, complete the following tasks:
 
@@ -38,39 +38,39 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 2. In the map view, click **+ New POI**. 
 3. Complete the following steps in the **Details** section:
 
-    a. Type a name.
+   a. Type a name.
 
-    b. Select a library.
+   b. Select a library.
 
-    c. Enter or select a radius. 
+   c. Enter or select a radius.
 
-    d. Select the icon that you want to use for your POI.
-    
-    e. Select a color for your POI icon.
-    
-    f. Type a category.
+   d. Select the icon that you want to use for your POI.
+
+   e. Select a color for your POI icon.
+
+   f. Type a category.
 
 4. Complete the following steps in the **Location** section:
 
-    a. Type an address.
-    
-    b. Type the city.
-    
-    c. Type the name of the state.
-    
-    d. Type the name of the country.
-    
-    e. Select or enter a latitude or longitude.
-    
-    f. Click **Drop Pin on Map**.
+   a. Type an address.
+
+   b. Type the city.
+
+   c. Type the name of the state.
+
+   d. Type the name of the country.
+
+   e. Select or enter a latitude or longitude.
+
+   f. Click **Drop Pin on Map**.
 
 5. Complete the following steps in the **Metadata** section:
-    
-    a. Click **Add Metadata.**
-    
-    b. Type the key name.
-    
-    c. Type the key value.
+
+   a. Click **Add Metadata.**
+
+   b. Type the key name.
+
+   c. Type the key value.
 
 6. Click **Confirm**.
 

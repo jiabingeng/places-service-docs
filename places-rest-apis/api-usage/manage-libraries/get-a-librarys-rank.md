@@ -1,6 +1,6 @@
 # Get a library's rank
 
- A GET method that allows you to rank libraries.
+A GET method that allows you to rank libraries.
 
 ## Request
 
@@ -8,10 +8,10 @@
 
 ## Headers
 
-`-H Content-Type: application/JSON  
--H 'Authorization: Bearer <TOKEN>'  
--H 'x-api-key: <API KEY>'  
--H 'x-gw-ims-org-id: <ORGID>'  
+`-H Content-Type: application/JSON    
+-H 'Authorization: Bearer <TOKEN>'    
+-H 'x-api-key: <API KEY>'    
+-H 'x-gw-ims-org-id: <ORGID>'    
 -H 'Accept-Language: en-US'`
 
 ## Sample response

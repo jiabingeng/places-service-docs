@@ -1,8 +1,8 @@
 # Manage libraries in the Places UI
 
-A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization. 
+A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.
 
-There are various ways to organize your POIs into libraries depending what is most useful to your organization. Some customers might prefer to create a separate library for each mobile app, while other customers might use libraries to group specific types of POIs such as coffee shops, parks, hotels, and so on. For example, a major entertainment company might have a library that comprises their outdoor venues in one library and their retail stores in another library. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city. 
+There are various ways to organize your POIs into libraries depending what is most useful to your organization. Some customers might prefer to create a separate library for each mobile app, while other customers might use libraries to group specific types of POIs such as coffee shops, parks, hotels, and so on. For example, a major entertainment company might have a library that comprises their outdoor venues in one library and their retail stores in another library. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city.
 
 Libraries are defined by the following:
 
@@ -23,7 +23,7 @@ Libraries are defined by the following:
 ## Change the rank of a library in the Places UI
 
 1. Log into Adobe Places with your Adobe ID.
-2. On the **Libraries** tab, review the current ranking of your libraries.
+2. On the **Libraries** tab, review the current ranking of your libraries. The libraries are arranged in priority order, with the highest ranking library at the top left, and the lowest ranking library on the bottom right.
 3. Click the icon at the top left of the library, and drag the library to the new rank. 
 
 ## Rename a library
