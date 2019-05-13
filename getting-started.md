@@ -72,5 +72,5 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 
    c. Type the key value.
 
-6. Click **Confirm**. test
+6. Click **Confirm**. 
 
