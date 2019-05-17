@@ -34,7 +34,7 @@
   * [Manage POIs in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
   * [Manage libraries in the Places UI](places-database-management-1/manage-libraries.md)
 * [Configure the SDK with Places](configure-places-in-the-sdk.md)
-* [Configure Launch rules and data elements with Places data](locations.md)
+* [Using Launch rules and data elements with Places data](locations.md)
 * [Places use cases](places-use-cases.md)
 * [Places FAQs](places-faqs.md)
 

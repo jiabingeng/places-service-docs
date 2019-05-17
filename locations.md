@@ -1,4 +1,4 @@
-# Configure Launch rules and data elements with Places data
+# Using Launch rules and data elements with Places data
 
 ## Rules
 
