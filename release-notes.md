@@ -1,5 +1,17 @@
 # Release notes
 
+## May 28, 2019
+
+A bug fix release for the Places UI. Fixed a couple issues reported by customers:
+
+### Places UI 
+
+* Update to the Solution Switcher in Places to align with the rest of the Experience Cloud
+* Fixed issue where rank was saving in instances where no rank changes were made
+* Fixed the minimum allowed radius in the UI to 10 meters
+* Fixed bug where radius field reset back to 20m if you delete all the numbers in the field
+
+
 ## February 28, 2019
 
 ### Beta Release
