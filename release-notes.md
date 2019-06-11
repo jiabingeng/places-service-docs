@@ -4,7 +4,7 @@
 
 Fixed the following issues in the Places UI:
 
-* Update to the Solution Switcher in Places to align with the rest of the Experience Cloud.
+* Updated the Solution Switcher in Places to align with the rest of the Experience Cloud.
 * Fixed an issue where rank was saving in instances where no rank changes were made.
 * Increased the minimum allowed radius in the UI to 10 meters.
 * Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
