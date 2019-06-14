@@ -9,7 +9,6 @@ Fixed the following issues in the Places UI:
 * Increased the minimum allowed radius in the UI to 10 meters.
 * Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
 
-
 ## February 28, 2019
 
 ### Beta Release
@@ -20,18 +19,18 @@ This is the first release of Places, a set of tools that allows customers to enr
 
 Here are the key features in this release:
 
-#### Places UI 
+#### Places UI
 
 We have released a management UI where you can view and manage your Points of Interest \(POIs\). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
 * To see the Places UI, go to [https://places.adobe.com](https://places.adobe.com). 
 * To get started with the Places UI, see [Getting Started](https://launch.gitbook.io/places-services-by-adobe-documentation/getting-started).
 
-#### Places Launch Extension 
+#### Places Launch Extension
 
 Using the Places Launch Extension, you can add your Places libraries to your mobile app and act on their POIs. Using the rule builder in Launch, you can trigger actions to fire when users enter and exit POIs.
 
-In the Places extension: 
+In the Places extension:
 
 * You can choose which POI libraries to include on your app.
 * Rule events that trigger on POI entry or exit.
@@ -39,7 +38,7 @@ In the Places extension:
 
 For more information about the Places extension, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 
-#### Places APIs 
+#### Places APIs
 
 You can use the Places APIs do do the following:
 
