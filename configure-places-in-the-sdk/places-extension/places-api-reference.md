@@ -201,7 +201,7 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 Requests the location of the device, as previously known by the Places extension.
 
 {% hint style="info" %}
-The Places extension only knows about locations that were provided to it via calls to [GetNearbyPointsOfInterest]().
+The Places extension only knows about locations that were provided to it via calls to [GetNearbyPointsOfInterest in Android](https://launch.gitbook.io/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension/places-api-reference#getnearbypointsofinterest) or [GetNearbyPointsofInterest in iOS](https://launch.gitbook.io/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension/places-api-reference#getnearbypointsofinterest-1).
 {% endhint %}
 
 {% tabs %}
