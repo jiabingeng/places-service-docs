@@ -37,7 +37,7 @@ import com.adobe.marketing.mobile.Places;
 {% endtab %}
 
 {% tab title="iOS" %}
-1. Add the Places and [Mobile Core](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
+1. Add the Places and [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
 
    ```text
    pod 'ACPPlaces', '~> 1.0'
