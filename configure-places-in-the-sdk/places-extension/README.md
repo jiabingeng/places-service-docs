@@ -6,7 +6,7 @@ The Places extension allows you to act based on the location of your users. This
 
 1. In Launch, click the **Extensions** tab.
 2. On the **Catalog** tab, locate the **Adobe Places** extension, and click **Install**.
-3. Select the Places libraries you want to use in this property.
+3. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
 4. Click **Save**. When you click **Save**, the Experience Platform SDK searches the Places Service for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
 5. Complete the publishing process to update the SDK configuration.
 
