@@ -2,7 +2,7 @@
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.
 
-There are various ways to organize your POIs into libraries depending what is most useful to your organization. Some customers might prefer to create a separate library for each mobile app, while other customers might use libraries to group specific types of POIs such as coffee shops, parks, hotels, and so on. For example, a major entertainment company might have a library that comprises their outdoor venues in one library and their retail stores in another library. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city.
+There are various ways to organize your POIs into libraries depending what is most useful to your organization. Some customers might prefer to create a separate library for each mobile app, while other customers might use libraries to group specific types of POIs such as coffee shops, parks, hotels, and so on. For example, a major entertainment company might have a library that comprises their outdoor venues and their retail stores in another library. A city government might have a library that comprises all of the buildings in the city and another library that comprises all of the parks in the city.
 
 Libraries are defined by the following:
 
