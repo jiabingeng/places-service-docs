@@ -122,7 +122,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Configuration keys
 
-To update the SDK configuration programmatically at runtime, use the following information to change your Adobe Places configuration values. For more information, see [Configuration Methods Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Adobe Places configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | Key | Required | Description |
 | :--- | :--- | :--- |
