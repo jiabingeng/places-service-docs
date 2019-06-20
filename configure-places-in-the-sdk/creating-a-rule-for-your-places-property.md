@@ -4,7 +4,7 @@ The Places SDK keeps track of the current location, monitors the configured POIs
 
 ## Rules
 
-You can configure a rule, which is composed of an event, a condition, and an action. Each rule is composed of the following: 
+You can configure a rule, which is composed of an event, a condition, and an action. Each rule is composed of the following:
 
 * One or more events
 * \(Optional\) conditions
@@ -42,7 +42,7 @@ Actions define what the app will do in response to the condition for the rule is
 ## Create a rule: an example
 
 {% hint style="warning" %}
-This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see  [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
 {% endhint %}
 
 The following procedure is an example of how to create a rule that sends a post back to Slack when you enter a coffee shop in San Francisco.
@@ -69,7 +69,7 @@ To create a data element in Experience Platform Launch:
 
 ### Create a rule in Experience Platform Launch for Places
 
-![](../../.gitbook/assets/create-a-rule.png)
+![](../.gitbook/assets/create-a-rule.png)
 
 1. In Experience Platform Launch, click the **Rules** tab.
 2. Click **Add Rule**.
@@ -85,7 +85,7 @@ To create a data element in Experience Platform Launch:
 
 ### Create a condition
 
-1.  In the Conditions section, click **+Add**. Conditions determine what criteria has to be met for the action to be taken.
+1. In the Conditions section, click **+Add**. Conditions determine what criteria has to be met for the action to be taken.
 2. In **Logic Type**, select Regular, which allows actions to execute if the condition is met.
 3. In the **Extension** drop-down list, select **Places – Beta**.
 4. In **Condition Type**, select **City**.
@@ -99,21 +99,19 @@ To create a data element in Experience Platform Launch:
 2. In the **Extension** drop-down list, leave the default **Mobile Core** option selected.
 3. Select an action type, for example, **Send Postback**.
 
-     a. In **URL**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
+   a. In **URL**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
 
-     b. To send a post body, select the **Add Post Body** check box.
+   b. To send a post body, select the **Add Post Body** check box.
 
-     c. In **Post Body**, add the post body, for example: `{  "text": "A customer has entered"  }`
+   c. In **Post Body**, add the post body, for example: `{ "text": "A customer has entered" }`
 
-     c. Type a content type for example **application/json**.
-     
-     d. Select a timeout value, for example, **5**.
+   c. Type a content type for example **application/json**.
 
-9. Click **Keep Changes**.
+   d. Select a timeout value, for example, **5**.
+
+4. Click **Keep Changes**.
 
 ### Publish the rule
 
 1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
-
-
 
