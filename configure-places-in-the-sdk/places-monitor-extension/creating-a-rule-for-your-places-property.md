@@ -98,11 +98,17 @@ To create a data element in Experience Platform Launch:
 1. In the **Actions** section, click **+ Add**.
 2. In the **Extension** drop-down list, leave the default **Mobile Core** option selected.
 3. Select an action type, for example, **Send Postback**.
-4. In **URL**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
-5. To send a post body, select the **Add Post Body** check box.
-6. In **Post Body**, add the post body, for example: `{  "text": "A customer has entered"  }`
-7. Type a content type for example **application/json**.
-8. Select a timeout value, for example, **5**.
+
+     a. In **URL**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
+
+     b. To send a post body, select the **Add Post Body** check box.
+
+     c. In **Post Body**, add the post body, for example: `{  "text": "A customer has entered"  }`
+
+     c. Type a content type for example **application/json**.
+     
+     d. Select a timeout value, for example, **5**.
+
 9. Click **Keep Changes**.
 
 ### Publish the rule
