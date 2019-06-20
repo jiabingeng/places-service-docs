@@ -10,7 +10,7 @@ Libraries are defined by the following:
 | :--- | :--- |
 | ID | A unique identifier assigned to the library at creation. |
 | Name | A friendly name given to a library. |
-| Rank | These rankings can be ignored if there are no overlapping geofences in your organization. If there are overlapping POIs, we recommend that you put each of the geofences in separate libraries, so they can be weighted relative to each other. A user can only be in one geofence at a time.   The highest ranking of the geofences a user is in determines his or her current geofence membership. If there geofences have the same library ranking, the smallest geofence is the user's current geofence.   The SDK is also aware of _Last entered_ and _Last exited_ POIs, so you have complete control of how you want your rules to fire based on user interaction with your POIs. |
+| Rank | These rankings can be ignored if there are no overlapping geofences in your organization. If there are overlapping POIs, we recommend that you put each of the geofences in separate libraries, so they can be weighted relative to each other. A user can only be in one geofence at a time. The highest ranking of the geofences a user is in determines his or her current geofence membership. If the geofences have the same library ranking, the smallest geofence is the user's current geofence. The SDK is also aware of _Last entered_ and _Last exited_ POIs, so you have complete control of how you want your rules to fire based on user interaction with your POIs. |
 
 ## Create a library
 

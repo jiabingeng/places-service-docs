@@ -1,6 +1,6 @@
 # Using your own monitor
 
-You can also use your monitoring services and integrate with Places by using the Places Extension APIs.
+You can also use your monitoring services and integrate with Places by using the Places extension APIs.
 
 ## Registering Geofences
 

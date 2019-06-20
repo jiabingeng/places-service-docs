@@ -1,6 +1,6 @@
 # Using the Places Monitor extension
 
-## Configure the Places Monitor extension in Launch  <a id="configure-places-monitoring-extension-in-launch"></a>
+## Install the Places Monitor extension in Launch  <a id="configure-places-monitoring-extension-in-launch"></a>
 
 1. In Launch, click the **Extensions** tab.
 2. On the **Catalog** tab, locate the **Places Monitor** extension, and click **Install**.

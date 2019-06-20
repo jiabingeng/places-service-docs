@@ -6,10 +6,10 @@ Places requires special provisioning context with your regular Adobe Experience 
 
 To get provisioned, complete the following tasks:
 
-* In the Admin Console, ensure that your organization is provisioned with Places.  If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
-* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console. For more information, see [Adding a user to Launch and Places](https://placesdocs.com/places-services-by-adobe-documentation/adding-a-user-to-launch-and-places).
-* Ensure your mobile app property is configured in Adobe Launch with the Places extension installed.  For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension). 
-* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places. This allows you to add your POIs and Libraries.
+* In the Admin Console, ensure that your organization is provisioned with Places.   If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
+* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.  For more information, see [Adding a user to Launch and Places](https://placesdocs.com/places-services-by-adobe-documentation/adding-a-user-to-launch-and-places).
+* Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension). 
+* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  This allows you to add your POIs and Libraries.
 
 ## Configure the Places extension and Places Monitor extension
 
@@ -24,7 +24,7 @@ You can create libraries and POIs in one of the following ways:
 
 ## Create an empty library in the Places database in the Places UI
 
-1. Log into Adobe Places UI \(The user interface to visually add and manage the POIs and libraries\). 
+1. Log into Adobe Places UI  The user interface that is used to visually add and manage the POIs and libraries. 
 2. Click on the **Libraries** tab.
 3. Click **Create Library**.
 4. Type the name.
@@ -32,7 +32,7 @@ You can create libraries and POIs in one of the following ways:
 
 ## Create a new POI in the library in the Places UI
 
-A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
+A POI is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
 
 1. Log in to Adobe Places Services UI \([https://places.adobe.com](https://places.adobe.com)\) with your Adobe ID.
 2. In the map view, click **+ New POI**. 

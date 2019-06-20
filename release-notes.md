@@ -24,7 +24,7 @@ Fixed the following issues in the Places UI:
 
 ### Beta Release
 
-This is the first release of Places, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Experience Platform Launch.
+This is the first release of Places, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Experience Platform Launch.
 
 ### Key features
 
@@ -39,7 +39,7 @@ We have released a management UI where you can view and manage your points of in
 
 #### Places Launch Extension
 
-Using the Places Launch Extension, you can add your Places libraries to your mobile app and act on their POIs. Using the rule builder in Launch, you can trigger actions to fire when users enter and exit POIs.
+Using the Places Extension, you can add your Places libraries to your mobile app and act on their POIs. Using the rule builder in Experience Platform Launch, you can trigger actions to fire when users enter and exit POIs.
 
 In the Places extension:
 
