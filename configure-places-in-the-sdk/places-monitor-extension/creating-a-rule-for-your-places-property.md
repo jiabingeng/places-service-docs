@@ -67,11 +67,13 @@ To create a data element in Experience Platform Launch:
 6. In the right pane, select **Current POI**.
 7. Click **Save**.
 
+![](../../.gitbook/assets/create-a-rule.png)
+
 ### Create a rule in Experience Platform Launch for Places
 
-1. In Experience Platform Launch, click the Rules tab.
-2. Click Add Rule.
-3. Type a name for the rule, for example, Track entry for coffee shop in SF.
+1. In Experience Platform Launch, click the **Rules** tab.
+2. Click **Add Rule**.
+3. Type a name for the rule, for example, **Track entry for coffee shop in SF**.
 
 ### Create an event
 
