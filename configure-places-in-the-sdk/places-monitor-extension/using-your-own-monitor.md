@@ -8,8 +8,8 @@ If you decide to use your monitoring services, register the geofences of the POI
 
 {% tabs %}
 {% tab title="iOS" %}
-1. Pass the location updates that were obtained from the Core Location services of the iOS to the Places Extension. 
-2. Use the `getNearbyPointsOfInterest` Places Extension API to get the array of _n_ `ACPPlacesPoi` objects around the current location.
+1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension. 
+2. Use the `getNearbyPointsOfInterest` Places extension API to get the array of _n_ `ACPPlacesPoi` objects around the current location.
 
    ```text
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -21,7 +21,7 @@ If you decide to use your monitoring services, register the geofences of the POI
    }
    ```
 
-3. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs
+3. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
 
 ```text
 - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -98,7 +98,7 @@ Calling the `getNearbyPointsOfInterest` API results in a network call that gets 
 
 {% tabs %}
 {% tab title="iOS" %}
-Call the `processGeofenceEvent` Places API in the CLLocationManager delegate. This API notifies you whether the user has entered or exited a specific region.
+Call the `processGeofenceEvent` Places API in the `CLLocationManager` delegate. This API notifies you whether the user has entered or exited a specific region.
 
 ```objectivec
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {

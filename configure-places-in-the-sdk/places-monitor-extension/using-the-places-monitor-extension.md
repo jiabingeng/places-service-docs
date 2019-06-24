@@ -26,13 +26,13 @@ This content is currently in progress.
 
 #### Objective-C  <a id="objective-c"></a>
 
-```text
+```objectivec
 #import "ACPCore.h"#import "ACPPlaces.h"#import "ACPPlacesMonitor.h"
 ```
 
 #### Swift  <a id="swift"></a>
 
-```text
+```swift
 import ACPPlacesimport ACPPlacesMonitor
 ```
 {% endtab %}
@@ -50,13 +50,13 @@ In your app's`application:didFinishLaunchingWithOptions`, register `PlacesMonito
 
 #### Objective-C  <a id="objective-c-1"></a>
 
-```text
+```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:                  (NSDictionary*)launchOptions {    [ACPCore configureWithAppId:@"yourAppId"];    [ACPPlaces registerExtension];    [ACPPlacesMonitor registerExtension];     [ACPCore start:^{            // do other initialization required for the SDK            }];     return YES; }
 ```
 
 #### Swift  <a id="swift-1"></a>
 
-```text
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {       ACPCore.configure(withAppId: "yourAppId")          ACPPlaces.registerExtension()       ACPPlacesMonitor.registerExtension()       ACPCore.start(nil)       // Override point for customization after application launch.        return true}
 ```
 
@@ -66,13 +66,21 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Add permissions to the manifest <a id="add-permissions-to-the-manifest"></a>
 
+{% tabs %}
+{% tab title="Android" %}
+**Java**
+
 For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element.
 
-```text
+```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"        package="com.adobe.placesapp">​      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />​    <application ...>        ...    </application></manifest>
 ```
+{% endtab %}
 
-iOS
+{% tab title="iOS" %}
+This content is in progress.
+{% endtab %}
+{% endtabs %}
 
 ## Enable location updates in the background  <a id="enable-location-updates-in-background"></a>
 
