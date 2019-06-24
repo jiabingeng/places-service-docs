@@ -243,13 +243,13 @@ Monitoring can be set to one of the following values:
 
 #### Syntax
 
-```text
+```objectivec
 + (void) setPlacesMonitorMode: (ACPPlacesMonitorMode) monitorMode;
 ```
 
 #### Example
 
-```text
+```objectivec
 [ACPPlacesMonitor setPlacesMonitorMode:ACPPlacesMonitorModeSignificantChanges];
 ```
 {% endtab %}
