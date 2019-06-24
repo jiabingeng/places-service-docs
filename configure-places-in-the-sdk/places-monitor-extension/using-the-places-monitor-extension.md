@@ -1,8 +1,8 @@
 # Using the Places Monitor extension
 
-## Install the Places Monitor extension in Launch  <a id="configure-places-monitoring-extension-in-launch"></a>
+## Install the Places Monitor extension in Experience Platform Launch  <a id="configure-places-monitoring-extension-in-launch"></a>
 
-1. In Launch, click the **Extensions** tab.
+1. In Experience Platform Launch, click the **Extensions** tab.
 2. On the **Catalog** tab, locate the **Places Monitor** extension, and click **Install**.
 3. Click **Save**.
 4. Follow the publishing process to update the SDK configuration.
@@ -15,9 +15,13 @@ There are no configuration tasks for the Places Monitor extension.![](https://bl
 
 ## Add the Places Monitor extension to your app  <a id="add-places-monitor-extension-to-your-app"></a>
 
-AndroidiOS
+{% tabs %}
+{% tab title="Android" %}
+This content is currently in progress.
+{% endtab %}
 
-1. Add the library to your project via your Cocoapods `Podfile` by adding `pod 'ACPPlacesMonitor'`
+{% tab title="iOS" %}
+1. Add the library to your project via your Cocoapods `Podfile` by adding `pod 'ACPPlacesMonitor'`.
 2. Import the Places and Places Monitor libraries:
 
 #### Objective-C  <a id="objective-c"></a>
@@ -31,13 +35,17 @@ AndroidiOS
 ```text
 import ACPPlacesimport ACPPlacesMonitor
 ```
-
-‌
+{% endtab %}
+{% endtabs %}
 
 ## Register the Places Monitor with Mobile Core <a id="register-the-places-monitor-with-mobile-core"></a>
 
-AndroidiOS
+{% tabs %}
+{% tab title="Android" %}
+This content is in progress.
+{% endtab %}
 
+{% tab title="iOS" %}
 In your app's`application:didFinishLaunchingWithOptions`, register `PlacesMonitor` and Places with Mobile Core:
 
 #### Objective-C  <a id="objective-c-1"></a>
@@ -53,12 +61,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 **Important**: Places monitoring depends on the Places extension. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
-
-​‌
+{% endtab %}
+{% endtabs %}
 
 ## Add permissions to the manifest <a id="add-permissions-to-the-manifest"></a>
-
-‌
 
 For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element.
 

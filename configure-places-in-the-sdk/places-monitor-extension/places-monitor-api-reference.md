@@ -110,7 +110,7 @@ Begin tracking the device's location and monitoring nearby Places.
 {% tab title="Android" %}
 ### Start
 
-If authorization to use device location has not been granted by the user, the first call to the `start` API will prompt the user for permission.
+If authorization to use device location has not been granted by the user, the first call to the `start` API prompts the user for permission.
 
 #### Syntax
 
