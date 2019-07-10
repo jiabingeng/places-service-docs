@@ -74,3 +74,9 @@ A POI is a location or a point on a map that is of interest to you. It can inclu
 
 6. Click **Confirm**. 
 
+## Watch a video on getting started with Adobe Experienece Platform Location Services
+
+{% embed url="https://www.youtube.com/watch?v=aV6i\_ayxWCw" %}
+
+
+
