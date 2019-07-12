@@ -7,8 +7,6 @@
 3. Click **Save**.
 4. Follow the publishing process to update the SDK configuration.
 
-‌
-
 ### **Configure the Places Monitor extension**  <a id="configure-places-extension"></a>
 
 There are no configuration tasks for the Places Monitor extension.![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lf1Mc1caFdNCK_mBwhe%2F-Lf1N06T8hdv0-r5jPPN%2F-Lf1ND5ZuVvkxT6j2GiQ%2Fconfigure_places_monitor.png?generation=1558039292942097&alt=media)‌
@@ -27,18 +25,22 @@ This content is currently in progress.
 #### Objective-C  <a id="objective-c"></a>
 
 ```objectivec
-#import "ACPCore.h"#import "ACPPlaces.h"#import "ACPPlacesMonitor.h"
+#import "ACPCore.h"
+#import "ACPPlaces.h"
+#import "ACPPlacesMonitor.h"
 ```
 
 #### Swift  <a id="swift"></a>
 
 ```swift
-import ACPPlacesimport ACPPlacesMonitor
+import ACPCore
+import ACPPlaces
+import ACPPlacesMonitor
 ```
 {% endtab %}
 {% endtabs %}
 
-## Register the Places Monitor with Mobile Core <a id="register-the-places-monitor-with-mobile-core"></a>
+## Register and Start the Places Monitor <a id="register-the-places-monitor-with-mobile-core"></a>
 
 {% tabs %}
 {% tab title="Android" %}
@@ -51,13 +53,34 @@ In your app's`application:didFinishLaunchingWithOptions`, register `PlacesMonito
 #### Objective-C  <a id="objective-c-1"></a>
 
 ```objectivec
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:                  (NSDictionary*)launchOptions {    [ACPCore configureWithAppId:@"yourAppId"];    [ACPPlaces registerExtension];    [ACPPlacesMonitor registerExtension];     [ACPCore start:^{            // do other initialization required for the SDK            }];     return YES; }
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
+    [ACPCore configureWithAppId:@"yourAppId"];
+    [ACPPlaces registerExtension];
+    [ACPPlacesMonitor registerExtension];
+    [ACPCore start:^{            
+        // do other initialization required for the SDK
+        [ACPPlacesMonitor start];
+    }];
+    
+    return YES; 
+}
 ```
 
 #### Swift  <a id="swift-1"></a>
 
 ```swift
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {       ACPCore.configure(withAppId: "yourAppId")          ACPPlaces.registerExtension()       ACPPlacesMonitor.registerExtension()       ACPCore.start(nil)       // Override point for customization after application launch.        return true}
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    ACPCore.configure(withAppId: "yourAppId")
+    ACPPlaces.registerExtension()       
+    ACPPlacesMonitor.registerExtension()
+    ACPCore.start({
+        // do other initialization required for the SDK
+        ACPPlacesMonitor.start()
+    })
+    
+    // Override point for customization after application launch.        
+    return true
+}
 ```
 
 **Important**: Places monitoring depends on the Places extension. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
@@ -73,7 +96,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element.
 
 ```java
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"        package="com.adobe.placesapp">​      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />​    <application ...>        ...    </application></manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <application>        
+    ...    
+  </application>
+</manifest>
 ```
 {% endtab %}
 
