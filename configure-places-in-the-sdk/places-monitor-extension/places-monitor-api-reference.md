@@ -131,9 +131,13 @@ PlacesMonitor.start();
 **Important**: To begin monitoring, the location service must have the necessary authorization.
 
 * If the authorization for the location service has not been provided to the application, the first call to the `start` API requests the authorization to use the location service as configured for the application.
-* Depending on your device's capabilities, if the authorization has been provided, the Places Monitor tracks the user's location based on the currently set `ACPPlacesMonitorMode`.
+* Depending on your device's capabilities, if the authorization has been provided, the Places Monitor tracks the user's location based on the currently set `ACPPlacesMonitorMode`. By default, the monitor uses `ACPPlacesMonitorModeSignificantChanges`.
 
-  By default, the monitor uses `ACPPlacesMonitorModeSignificantChanges`.
+{% hint style="warning" %}
+If your call to start monitoring is made before the SDK has finished initializing, it may be ignored.  
+
+You can ensure the SDK has finished initialization by calling `start` from the callback provided to `ACPCore::start:`.
+{% endhint %}
 
 #### Syntax
 
@@ -143,9 +147,18 @@ PlacesMonitor.start();
 
 #### Example
 
+Starting the Places Monitor when the SDK is initializing:
+```objectivec
+[ACPCore start:^{
+    [ACPPlacesMonitor start];
+}];
+```
+
+Starting the Places Monitor later in app execution:
 ```objectivec
 [ACPPlacesMonitor start];
 ```
+
 {% endtab %}
 {% endtabs %}
 
