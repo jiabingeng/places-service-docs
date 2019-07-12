@@ -112,7 +112,9 @@ This content is in progress.
 
 ## Enable location updates in the background  <a id="enable-location-updates-in-background"></a>
 
-iOS supports the delivery of location events to apps that are suspended or no longer running. To receive location updates in the background for the Places Monitor extension, configure the Location updates capability for your app in `Xcode.background-location-updates`.![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lf1Mc1caFdNCK_mBwhe%2F-Lf1N06T8hdv0-r5jPPN%2F-Lf1ND5l_pAVGYilVYrd%2Fusing-the-places-monitor_1.png?generation=1558039292115216&alt=media)
+iOS supports the delivery of location events to apps that are suspended or no longer running. To receive location updates in the background for the Places Monitor extension, configure the Location updates capability for your app in `Xcode.background-location-updates`.
+
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lf1Mc1caFdNCK_mBwhe%2F-Lf1N06T8hdv0-r5jPPN%2F-Lf1ND5l_pAVGYilVYrd%2Fusing-the-places-monitor_1.png?generation=1558039292115216&alt=media)
 
 ## Configuring the plist keys  <a id="configuring-the-plist-keys"></a>
 
