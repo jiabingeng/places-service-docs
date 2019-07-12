@@ -116,12 +116,14 @@ iOS supports the delivery of location events to apps that are suspended or no lo
 
 ## Configuring the plist keys  <a id="configuring-the-plist-keys"></a>
 
-You must include the `NSLocationWhenInUseUsageDescription` and `NSLocationAlwaysAndWhenInUseUsageDescription` keys in your app's `Info.plist` file. If the keys are not present, the authorization requests fail immediately.
+The following keys must be included in your app's `Info.plist` file:
 
-**Important**: If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
+* `NSLocationWhenInUseUsageDescription` - the text should describe why the app is requesting access to the user’s location information while running in the foreground.
+* `NSLocationAlwaysAndWhenInUseUsageDescription` - the text should describe why the app is requesting access to the user’s location information at all times.
 
-* `NSLocationWhenInUseUsageDescription` should be added with the value describing why the app is requesting access to the user’s location information while running in the foreground.
-* `NSLocationAlwaysAndWhenInUseUsageDescription` should be added with the describing why the app is requesting access to the user’s location information at all times.
+{% hint style="info" %}
+If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
+{% endhint %}
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lf1Mc1caFdNCK_mBwhe%2F-Lf1N06T8hdv0-r5jPPN%2F-Lf1ND5n5T7duUiuf86T%2Fusing-the-places-monitor_2.png?generation=1558039291984718&alt=media)
 
