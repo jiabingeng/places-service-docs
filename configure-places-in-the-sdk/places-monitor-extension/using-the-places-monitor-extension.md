@@ -18,7 +18,7 @@ There are no configuration tasks for the Places Monitor extension.![](https://bl
 
 #### Java
 
-1. Add the Places Monitor extension and the Places Extension to your project using your app's gradle file.
+1. Add the Places Monitor extension and the Places extension to your project using your app's gradle file.
 
 2. Also include the latest Google Location services in the gradle file.
 
@@ -86,7 +86,7 @@ public class MobileApp extends Application {
 }
 ```
 
-**Important:** Places monitoring depends on the Places extension. When manually installing the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
+**Important:** Places monitoring depends on the Places extension. When you manually install the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
 
 {% endtab %}
 
