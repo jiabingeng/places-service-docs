@@ -145,10 +145,6 @@ For all versions of Android, to declare that your app need location permission, 
 </manifest>
 ```
 {% endtab %}
-
-{% tab title="iOS" %}
-This content is in progress.
-{% endtab %}
 {% endtabs %}
 
 ## Enable location updates in the background  <a id="enable-location-updates-in-background"></a>
