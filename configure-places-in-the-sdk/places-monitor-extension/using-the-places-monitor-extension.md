@@ -22,7 +22,8 @@ There are no configuration tasks for the Places Monitor extension.![](https://bl
 
 2. Also include the latest Google Location services in the gradle file.
 
- ```implementation 'com.adobe.marketing.mobile:places:1.+'
+ ```java
+ implementation 'com.adobe.marketing.mobile:places:1.+'
  implementation 'com.adobe.marketing.mobile:places-monitor:1.+'
  implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
  implementation 'com.google.android.gms:play-services-location:16.0.0'
@@ -30,7 +31,8 @@ There are no configuration tasks for the Places Monitor extension.![](https://bl
  
 3. Import the Places Monitor extension in your application's main activity.
 
-```import com.adobe.marketing.mobile.PlacesMonitor;
+```java
+import com.adobe.marketing.mobile.PlacesMonitor;
 ```
 
 {% endtab %}
