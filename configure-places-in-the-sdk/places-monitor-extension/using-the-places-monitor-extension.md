@@ -15,7 +15,26 @@ There are no configuration tasks for the Places Monitor extension.![](https://bl
 
 {% tabs %}
 {% tab title="Android" %}
-This content is currently in progress.
+
+#### Java
+
+1. Add the Places Monitor extension and the Places extension to your project using your app's gradle file.
+
+2. Also include the latest Google Location services in the gradle file.
+
+ ```java
+ implementation 'com.adobe.marketing.mobile:places:1.+'
+ implementation 'com.adobe.marketing.mobile:places-monitor:1.+'
+ implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
+ implementation 'com.google.android.gms:play-services-location:16.0.0'
+ ```  
+ 
+3. Import the Places Monitor extension in your application's main activity.
+
+```java
+import com.adobe.marketing.mobile.PlacesMonitor;
+```
+
 {% endtab %}
 
 {% tab title="iOS" %}
@@ -44,7 +63,31 @@ import ACPPlacesMonitor
 
 {% tabs %}
 {% tab title="Android" %}
-This content is in progress.
+
+#### Java
+
+In your App's `OnCreate` method register the Places Monitor extensions:
+
+```java
+public class MobileApp extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MobileCore.setApplication(this);
+        MobileCore.ConfigureWithAppId("yourAppId");
+        try {
+            PlacesMonitor.registerExtension(); //Register PlacesMonitor with Mobile Core
+            Places.registerExtension(); //Register Places with Mobile Core
+            MobileCore.start(null);
+        } catch (Exception e) {
+            //Log the exception
+         }
+    }
+}
+```
+
+**Important:** Places monitoring depends on the Places extension. When you manually install the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
+
 {% endtab %}
 
 {% tab title="iOS" %}
@@ -103,10 +146,6 @@ For all versions of Android, to declare that your app need location permission, 
   </application>
 </manifest>
 ```
-{% endtab %}
-
-{% tab title="iOS" %}
-This content is in progress.
 {% endtab %}
 {% endtabs %}
 
