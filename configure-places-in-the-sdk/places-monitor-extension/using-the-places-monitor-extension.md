@@ -9,7 +9,9 @@
 
 ### **Configure the Places Monitor extension**  <a id="configure-places-extension"></a>
 
-There are no configuration tasks for the Places Monitor extension.![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lf1Mc1caFdNCK_mBwhe%2F-Lf1N06T8hdv0-r5jPPN%2F-Lf1ND5ZuVvkxT6j2GiQ%2Fconfigure_places_monitor.png?generation=1558039292942097&alt=media)‌
+There are no configuration tasks for the Places Monitor extension.
+
+![Places Monitor extension](../../.gitbook/assets/configure_places_monitor.png)
 
 ## Add the Places Monitor extension to your app  <a id="add-places-monitor-extension-to-your-app"></a>
 
