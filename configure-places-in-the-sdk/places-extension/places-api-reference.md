@@ -247,3 +247,42 @@ Places.getLastKnownLocation(new AdobeCallback<Location>() {
 {% endtab %}
 {% endtabs %}
 
+
+
+{% tabs %}
+{% tab title="Android" %}
+### Clear
+
+Clears out the client-side data for Places in shared state, local storage, and in-memory.
+
+#### Syntax
+
+```java
+public static void clear();
+```
+
+#### Example
+
+```java
+Places.clear();
+```
+{% endtab %}
+
+{% tab title="iOS" %}
+### clear
+
+Clears out the client-side data for Places in shared state, local storage, and in-memory.
+
+#### Syntax
+
+```objectivec
++ (void) clear;
+```
+
+#### Example
+
+```objectivec
+[ACPPlaces clear];
+```
+{% endtab %}
+{% endtabs %}
