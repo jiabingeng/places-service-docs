@@ -6,7 +6,7 @@ Here are the custom native classes that will be used with the Places APIs:
 {% tab title="iOS" %}
 ### ACPPlacesPoi
 
-#### Definition
+Here is the definition:
 
 ```text
 /**
