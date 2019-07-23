@@ -247,8 +247,6 @@ Places.getLastKnownLocation(new AdobeCallback<Location>() {
 {% endtab %}
 {% endtabs %}
 
-
-
 {% tabs %}
 {% tab title="Android" %}
 ### Clear
@@ -286,3 +284,4 @@ Clears out the client-side data for Places in shared state, local storage, and i
 ```
 {% endtab %}
 {% endtabs %}
+

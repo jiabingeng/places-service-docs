@@ -134,7 +134,7 @@ PlacesMonitor.start();
 * Depending on your device's capabilities, if the authorization has been provided, the Places Monitor tracks the user's location based on the currently set `ACPPlacesMonitorMode`. By default, the monitor uses `ACPPlacesMonitorModeSignificantChanges`.
 
 {% hint style="warning" %}
-If your call to start monitoring is made before the SDK has finished initializing, it may be ignored.  
+If your call to start monitoring is made before the SDK has finished initializing, it may be ignored.
 
 You can ensure the SDK has finished initialization by calling `start` from the callback provided to `ACPCore::start:`.
 {% endhint %}
@@ -148,6 +148,7 @@ You can ensure the SDK has finished initialization by calling `start` from the c
 #### Example
 
 Starting the Places Monitor when the SDK is initializing:
+
 ```objectivec
 [ACPCore start:^{
     [ACPPlacesMonitor start];
@@ -155,10 +156,10 @@ Starting the Places Monitor when the SDK is initializing:
 ```
 
 Starting the Places Monitor later in app execution:
+
 ```objectivec
 [ACPPlacesMonitor start];
 ```
-
 {% endtab %}
 {% endtabs %}
 

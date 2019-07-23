@@ -46,4 +46,5 @@
 * [Using Experience Platform Launch rules and data elements with Places data](locations.md)
 * [Places use cases](places-use-cases.md)
 * [Places FAQs](places-faqs.md)
+* [Using Places with Adobe Campaign Standard](untitled.md)
 
