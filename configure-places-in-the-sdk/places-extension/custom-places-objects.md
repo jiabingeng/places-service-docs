@@ -1,6 +1,6 @@
 # Custom Places objects
 
-## Custom native classes to be used with the Places APIs
+Here are the custom native classes that will be used with the Places APIs:
 
 {% tabs %}
 {% tab title="iOS" %}

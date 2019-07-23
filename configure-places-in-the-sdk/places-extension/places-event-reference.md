@@ -1,6 +1,6 @@
 # Places event reference
 
-## Events handled by the Places extension
+Here is a list of the events that will be handled by the Places extension:
 
 ### GetCurrentPointsOfInterest
 
