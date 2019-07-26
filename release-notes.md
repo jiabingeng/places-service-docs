@@ -1,5 +1,17 @@
 # Release notes
 
+## July 25, 2019
+
+The following updates were made in this release:
+
+**ACPPlacesMonitor 2.0.0**
+
+* To clear all Places data from the device,
+
+  in ACPPlacesMonitor, replaced an existing API \(`+ (void) stop;`\) with`+ (void) stop: (BOOL) clearData;`. 
+
+* Updated the use of the ACPPlaces `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
+
 ## July 19, 2019
 
 The following updates were made in this release:
