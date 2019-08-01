@@ -165,7 +165,7 @@ Starting the Places Monitor later in app execution:
 
 ## Stop device monitoring
 
-Stops tracking the device's location.
+Calling this method will stop tracking the customer's location. Additionally, it will unregister all previously registered regions. Optionally, you may purge client-side data by passing in YES for the clearData parameter. Calling this method with YES for clearData will purge the data even if the monitor is not actively tracking the device's location.
 
 {% tabs %}
 {% tab title="Android" %}
@@ -174,13 +174,13 @@ Stops tracking the device's location.
 #### Syntax
 
 ```java
-public static void stop();
+public static void stop(final boolean clearData);
 ```
 
 #### Example
 
 ```java
-PlacesMonitor.stop();
+PlacesMonitor.stop(true);
 ```
 {% endtab %}
 
@@ -190,13 +190,13 @@ PlacesMonitor.stop();
 #### Syntax
 
 ```objectivec
-+ (void) stop;
++ (void) stop: (BOOL) clearData;
 ```
 
 #### Example
 
 ```objectivec
-[ACPPlacesMonitor stop];
+[ACPPlacesMonitor stop:YES];
 ```
 {% endtab %}
 {% endtabs %}
