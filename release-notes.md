@@ -5,11 +5,11 @@
 **Places Monitor 2.0.0**
 
 * Monitoring status is now persisted between launches.
-* Handling of the callback resulting from a location permission request no longer requires you to extend PlacesActivity.
-* Changed an existing API, allowing developers to clear all Places data from the device
+* The handling of the callback, which resulted from a location permission request no longer requires you to extend PlacesActivity.
+* Changed an existing API, allowing developers to clear all Places data from the device :
      Old API   : public static void stop();
      New API : public static void stop(final boolean clearData);
-* Updated the use of the Places getNearbyPointsOfInterest API to handle error scenarios more effectively.
+* Updated the use of the Places `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
 ## July 25, 2019
 
@@ -29,8 +29,8 @@ The following updates were made in this release:
 
 * Added a new API that clears out all Places-related data from shared state, in-app memory, and Shared Preference.
 * Fixed an issue where shared state was not getting updated during application start.
-* Fixed a bug where getNearbyPointsOfInterest callback was returning error code SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR on no network.
-* getNearbyPointsOfInterest API (without the errorCallback) will have the successCallback called with empty poi list, in case of error retrieving the nearby points of interest.
+* Fixed a bug where `getNearbyPointsOfInterest` callback was returning error code SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR on no internet.
+* `getNearbyPointsOfInterest` API (without the errorCallback) will have the `successCallback` called with empty poi list, in case of error retrieving the nearby points of interest.
 
 ## July 19, 2019
 

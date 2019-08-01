@@ -165,7 +165,7 @@ Starting the Places Monitor later in app execution:
 
 ## Stop device monitoring
 
-Calling this method will stop tracking the customer's location. Additionally, it will unregister all previously registered regions. Optionally, you may purge client-side data by passing in YES for the clearData parameter. Calling this method with YES for clearData will purge the data even if the monitor is not actively tracking the device's location.
+Calling this method will stop tracking the customer's location. It will also unregister all previously registered regions. Optionally, you can purge client-side data by passing in `YES` for the clearData parameter. When you call this method with `YES` for clearData purges the data even if the monitor is not actively tracking the device's location.
 
 {% tabs %}
 {% tab title="Android" %}
