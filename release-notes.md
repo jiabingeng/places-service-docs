@@ -4,7 +4,7 @@
 
 **Places Monitor Launch Extension 2.0.0**
 
-* Update Android and iOS installation instruction to Places Monitor 2.0
+* Updated Android and iOS installation instruction to Places Monitor 2.0.
 
 ## July 31, 2019
 
