@@ -5,17 +5,17 @@
 **Places UI Update**
 
 #### New Features
-* Added a new list view showing POIs without the map
-* Added POI filtering options for city, state, country, and metadata
-* Auto create the first library in an org
-* Added POI sorting to the List View
+* Added a new list view showing POIs without the map.
+* Added POI filtering options for city, state, country, and metadata.
+* Auto create the first library in an org.
+* Added POI sorting to the List View.
 
 #### UI Updates
-* Moved list and details panel to right side of UI
-* Added a new search panel to the top of the UI
-* Autoselect libraries in POI create if only one library is present
-* Moved library management into a popup window
-* Added POI Count next to filters
+* Moved list and details panel to right side of UI.
+* Added a new search panel to the top of the UI.
+* Autoselect libraries in POI create if only one library is present.
+* Moved library management into a popup window.
+* Added POI Count next to filters.
 
 
 ## Aug 6, 2019
