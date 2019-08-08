@@ -7,7 +7,7 @@
 #### New Features
 * Added a new list view that shows POIs without the map.
 * Added POI filtering options for the city, the state, the country, and the metadata.
-* The first library in an organization are automatically created.
+* The first library in an organization is automatically created.
 * Added POI sorting to the List View.
 
 #### UI Updates
