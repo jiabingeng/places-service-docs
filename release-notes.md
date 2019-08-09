@@ -1,5 +1,23 @@
 # Release notes
 
+## Aug 8, 2019
+
+**Places UI Update**
+
+#### New Features
+* Added a new list view that shows POIs without the map.
+* Added POI filtering options for the city, the state, the country, and the metadata.
+* The first library in an organization is automatically created.
+* Added POI sorting to the List View.
+
+#### UI Updates
+* Moved the list and details panel to right side of UI.
+* Added a new search panel to the top of the UI.
+* If only one library is present, this library is automatically selected when you create a POI.
+* Moved library management into a popup window.
+* Added a POI count next to the filters.
+
+
 ## Aug 6, 2019
 
 **Places Monitor Launch Extension 2.0.0**
