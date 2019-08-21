@@ -5,18 +5,19 @@
 **Places UI Update**
 
 #### New Features
+
 * Added a new list view that shows POIs without the map.
 * Added POI filtering options for the city, the state, the country, and the metadata.
 * The first library in an organization is automatically created.
 * Added POI sorting to the List View.
 
 #### UI Updates
+
 * Moved the list and details panel to right side of UI.
 * Added a new search panel to the top of the UI.
 * If only one library is present, this library is automatically selected when you create a POI.
 * Moved library management into a popup window.
 * Added a POI count next to the filters.
-
 
 ## Aug 6, 2019
 
@@ -31,8 +32,11 @@
 * Monitoring status is now persisted between launches.
 * The handling of the callback, which resulted from a location permission request no longer requires you to extend PlacesActivity.
 * Changed an existing API, allowing developers to clear all Places data from the device :
-     Old API   : public static void stop();
-     New API : public static void stop(final boolean clearData);
+
+     Old API   : public static void stop\(\);
+
+     New API : public static void stop\(final boolean clearData\);
+
 * Updated the use of the Places `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
 ## July 25, 2019
@@ -43,7 +47,7 @@ The following updates were made in this release:
 
 * To clear all Places data from the device,
 
-  in ACPPlacesMonitor, replaced an existing API \(`+ (void) stop;`\) with`+ (void) stop: (BOOL) clearData;`. 
+  in ACPPlacesMonitor, replaced an existing API \(`+ (void) stop;`\) with`+ (void) stop: (BOOL) clearData;`.
 
 * Updated the use of the ACPPlaces `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
@@ -53,8 +57,8 @@ The following updates were made in this release:
 
 * Added a new API that clears out all Places-related data from shared state, in-app memory, and Shared Preference.
 * Fixed an issue where shared state was not getting updated during application start.
-* Fixed a bug where `getNearbyPointsOfInterest` callback was returning error code SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR on no internet.
-* `getNearbyPointsOfInterest` API (without the errorCallback) will have the `successCallback` called with empty poi list, in case of error retrieving the nearby points of interest.
+* Fixed a bug where `getNearbyPointsOfInterest` callback was returning error code SERVER\_RESPONSE\_ERROR instead of CONNECTIVITY\_ERROR on no internet.
+* `getNearbyPointsOfInterest` API \(without the errorCallback\) will have the `successCallback` called with empty poi list, in case of error retrieving the nearby points of interest.
 
 ## July 19, 2019
 

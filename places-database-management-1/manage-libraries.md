@@ -15,8 +15,8 @@ Libraries are defined by the following:
 ## Create a library
 
 1. Log into Adobe Places with your Adobe ID.
-2. Click on the **Libraries** tab.
-3. Click **Create Library**.
+2. In the top right side, click **...**  &gt; **Manage Libraries**. 
+3. Click **New**.
 4. Type the name.
 5. Click **Confirm**.
 
@@ -27,7 +27,7 @@ Libraries are defined by the following:
 
    The libraries are arranged in priority order, with the highest ranking library at the top left, and the lowest ranking library on the bottom right.
 
-3. Click the icon at the top left of the library, and drag the library to the new rank. 
+3. Click the icon at the top left of the library and drag the library to the new rank. 
 
 ## Rename a library
 
