@@ -22,26 +22,26 @@ Geofences are a type of POI and are defined in the database based by the followi
 
 ## Create a POI
 
-A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
+A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
 
 1. Log in to Adobe Places with your Adobe ID.
-2. In the top right side, click the icon that looks like a bulleted list and then click  **New**. This step displays all of the POIs in your library.
+2. In the top right side, click the icon that looks like a bulleted list and then click  **New**.  This step displays all of the POIs in your library.
 3. In the map view, on the lower right side, click **+ New POI**. 
 4. Type a name for your POI.
 5. Select or add a library.
-6. Enter or select a radius. 
+6. Enter or select a radius.
 
    a. Select an icon for your POI.
- 
+
    b. Select a color for the icon.
 
-9. Expand the **Location** section.
+7. Expand the **Location** section.
 
-    a. Type an address.
+   a. Type an address.
 
-    b. Type the city.
+   b. Type the city.
 
-    c. Type the name of the state.
+   c. Type the name of the state.
 
    d. Type the name of the country.
 
@@ -49,29 +49,28 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 
    f. Click **Drop Pin on Map**.
 
-16. Expand the **Metadata** section and click **Add Metadata.**
+8. Expand the **Metadata** section and click **Add Metadata.**
 
-    a. Type the key name.
+   a. Type the key name.
 
-    b. Type the key value.
+   b. Type the key value.
 
-19. Click **Confirm** and then **Save**.
+9. Click **Confirm** and then **Save**.
 
 ## Edit a POI
 
 1. Log into Adobe Places Service using your Adobe ID.
-2. On the **Libraries** tab, find the library, and click **View POIs**. 
-3. In the list, click the POI that you want to edit.
-4. Edit the POI and click **Confirm**.
+2. In the top right side, click the icon that looks like a bulleted list.
+3. Locate the POI that you want to edit.
+4. Click **...** and select **View Details**.
+5. Update the information and click **Save**
 
 ## Delete a POI
 
 1. Log into Adobe Places Service using your Adobe ID.
-2. On the **Libraries** tab, click **View POIs**. 
-3. In the list, click the POI that you want to delete.
-4. Expand the Advanced section.
-5. Click **Delete POI.**
-6. Click **Confirm**.
+2. In the top right side, click the icon that looks like a bulleted list.
+3. Locate the POI that you want to delete.
+4. Click **...** and select **Delete**.
 
 ## Filter POIs by city, state, country, or metadata
 
@@ -79,18 +78,16 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 2. In the top right side, click the filtering icon.
 3. You can filter POIs in one of the following ways: 
 4. By library:
-  
+
    a. Select a library.
 
-6. By property:
+5. By property:
 
-    a. In **Property** drop-down list, select **Country**, **State**, or **City**.
+   a. In **Property** drop-down list, select **Country**, **State**, or **City**.
 
-    b. In the next line, enter a value. For example, you can select **State** and type **California**.
-    
-9. With metadata:
+   b. In the next line, enter a value. For example, you can select **State** and type **California**.
 
-    a. Enter a key and value.
+6. With metadata:
 
-
+   a. Enter a key and value.
 

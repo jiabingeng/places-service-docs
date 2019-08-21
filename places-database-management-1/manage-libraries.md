@@ -22,25 +22,22 @@ Libraries are defined by the following:
 
 ## Change the rank of a library in the Places UI
 
-1. Log into Adobe Places with your Adobe ID.
-2. On the **Libraries** tab, review the current ranking of your libraries.
-
-   The libraries are arranged in priority order, with the highest ranking library at the top left, and the lowest ranking library on the bottom right.
-
-3. Click the icon at the top left of the library and drag the library to the new rank. 
+1. Log in to Adobe Places with your Adobe ID.
+2. In the top right side, click **...** and select **Manage Libraries**.
+3. Click the icon to the left of the library name and drag the library to the new rank. 
 
 ## Rename a library
 
 1. Log in to Adobe Places with your Adobe ID.
-2. Click the **Library** tab.
-3. Click the edit \(pencil\) icon.
-4. Enter the new name.
-5. Click **Save**.
+2. In the top right side, click **...** and select **Manage Libraries**.
+3. Locate the library that you want to delete.
+4. Click **...** and select **Rename**.
+5. Update the name and click **Save**.
 
 ## Delete a library
 
 1. Log in to Adobe Places with your Adobe ID.
-2. Click the **Library** tab.
-3. Click the delete \(trash can\) icon.
-4. Click **Confirm**.
+2. In the top right side, click **...** and select **Manage Libraries**.
+3. Locate the library that you want to delete.
+4. Click **...** and select **Delete**.
 
