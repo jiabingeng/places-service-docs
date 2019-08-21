@@ -25,23 +25,24 @@ Geofences are a type of POI and are defined in the database based by the followi
 A point of interest \(POI\) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
 1. Log in to Adobe Places with your Adobe ID.
-2. In the top left side, click **Map**.
+2. In the top right side, click the icon that looks like a bulleted list and then click  **New**. This step displays all of the POIs in your library.
 3. In the map view, on the lower right side, click **+ New POI**. 
 4. Type a name for your POI.
-5. Enter or select a radius. 
-6. Select an icon for your POI.
-7. Select a color for the icon.
-8. Expand the **Location** section.
-9. Type an address.
-10. Type the city.
-11. Type the name of the state.
-12. Type the name of the country.
-13. Select or enter a latitude or longitude.
-14. Click **Drop Pin on Map**.
-15. Expand the **Metadata** section and click **Add Metadata.**
-16. Type the key name.
-17. Type the key value.
-18. Click **Confirm** and then **Save**.
+5. Select or add a library.
+6. Enter or select a radius. 
+7. Select an icon for your POI.
+8. Select a color for the icon.
+9. Expand the **Location** section.
+10. Type an address.
+11. Type the city.
+12. Type the name of the state.
+13. Type the name of the country.
+14. Select or enter a latitude or longitude.
+15. Click **Drop Pin on Map**.
+16. Expand the **Metadata** section and click **Add Metadata.**
+17. Type the key name.
+18. Type the key value.
+19. Click **Confirm** and then **Save**.
 
 ## Edit a POI
 
