@@ -60,3 +60,18 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 5. Click **Delete POI.**
 6. Click **Confirm**.
 
+## Filter POIs by city, state, country, or metadata
+
+1. Log into Adobe Places Service using your Adobe ID.
+2. In the top right side, click the filtering icon.
+3. You can filter POIs in one of the following ways: 
+4. By library:
+5. Select a library.
+6. By property:
+7. In **Property** drop-down list, select **Country**, **State**, or **City**.
+8. In the next line, enter a value. For example, you can select **State** and type **California**.
+9. With metadata:
+10. Enter a key and value.
+
+
+
