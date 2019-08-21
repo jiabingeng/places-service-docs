@@ -26,16 +26,15 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 
 1. Log in to Adobe Places with your Adobe ID.
 2. In the top right side, click the icon that looks like a bulleted list and then click  **New**.  This step displays all of the POIs in your library.
-3. In the map view, on the lower right side, click **+ New POI**. 
-4. Type a name for your POI.
-5. Select or add a library.
-6. Enter or select a radius.
+3. Type a name for your POI.
+4. Select or add a library.
+5. Enter or select a radius.
 
    a. Select an icon for your POI.
 
    b. Select a color for the icon.
 
-7. Expand the **Location** section.
+6. Expand the **Location** section.
 
    a. Type an address.
 
@@ -49,13 +48,13 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 
    f. Click **Drop Pin on Map**.
 
-8. Expand the **Metadata** section and click **Add Metadata.**
+7. Expand the **Metadata** section and click **Add Metadata.**
 
    a. Type the key name.
 
    b. Type the key value.
 
-9. Click **Confirm** and then **Save**.
+8. Click **Confirm** and then **Save**.
 
 ## Edit a POI
 
@@ -63,7 +62,7 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 2. In the top right side, click the icon that looks like a bulleted list.
 3. Locate the POI that you want to edit.
 4. Click **...** and select **View Details**.
-5. Update the information and click **Save**
+5. Update the information and click **Save**.
 
 ## Delete a POI
 
