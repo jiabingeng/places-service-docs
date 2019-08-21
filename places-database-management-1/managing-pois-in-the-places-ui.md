@@ -80,7 +80,7 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 3. You can filter POIs in one of the following ways: 
 4. By library:
   
-   * Select a library.
+   a. Select a library.
 
 6. By property:
 
@@ -90,7 +90,7 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
     
 9. With metadata:
 
-    * Enter a key and value.
+    a. Enter a key and value.
 
 
 
