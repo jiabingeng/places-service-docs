@@ -30,18 +30,31 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 4. Type a name for your POI.
 5. Select or add a library.
 6. Enter or select a radius. 
-7. Select an icon for your POI.
-8. Select a color for the icon.
+
+   a. Select an icon for your POI.
+ 
+   b. Select a color for the icon.
+
 9. Expand the **Location** section.
-10. Type an address.
-11. Type the city.
-12. Type the name of the state.
-13. Type the name of the country.
-14. Select or enter a latitude or longitude.
-15. Click **Drop Pin on Map**.
+
+    a. Type an address.
+
+    b. Type the city.
+
+    c. Type the name of the state.
+
+   d. Type the name of the country.
+
+   e. Select or enter a latitude or longitude.
+
+   f. Click **Drop Pin on Map**.
+
 16. Expand the **Metadata** section and click **Add Metadata.**
-17. Type the key name.
-18. Type the key value.
+
+    a. Type the key name.
+
+    b. Type the key value.
+
 19. Click **Confirm** and then **Save**.
 
 ## Edit a POI
