@@ -52,15 +52,15 @@ After you verify that the Places and Places Monitor extensions are working corre
 1. In of your Experience Platform Launch mobile property, click the **Data Elements** tab and click **Add Data Element**.
 2. In the **Extension** drop-down list, select **Places**.
 3. From the **Data Element Type** drop-down list, select **Name**.
-4. In the right-hand side pane, you can select **Current POI** which retrieves the name of the POI in which the user is currently located.  **Last Entered** retrieves the name of the POI that user last entered, and **Last Exited**  provides the name of the POI that the user last left.
+4. In the right-hand side pane, you can select **Current POI** which retrieves the name of the POI in which the user is currently located.  
 
-For this example, we will selected **Last Entered** and typed a name for the data element, such as **Last Entered POI Name** and clicked **Save**.
+    **Last Entered** retrieves the name of the POI that user last entered, and **Last Exited**  provides the name of the POI that the user last left. For this example, we will selected **Last Entered** and typed a name for the data element, such as **Last Entered POI Name** and clicked **Save**.
 
 ![A screenshot of a social media post
 
 Description automatically generated](.gitbook/assets/1.png)
 
-Repeat the same steps above and create data elements for _Last Entered POI Latitude_, _Last Entered POI Longitude_, and _Last Entered POI Radius_.
+5. Repeat the same steps above and create data elements for _Last Entered POI Latitude_, _Last Entered POI Longitude_, and _Last Entered POI Radius_.
 
 In addition to the data elements for Places, ensure that you create Mobile Core data elements for _App ID_ and _Experience Cloud ID_.
 
@@ -78,27 +78,27 @@ Rules in Experience Platform Launch allow you to create complex, multi-solution 
 8. In the **Extension** drop-down list, select **Mobile Core,** and in the **Action Type** drop-down list, select **Send Postback**.
 9. For the **URL**, you need to construct your Campaign Standard locations endpoint.   The URL should look similar to the one below. Ensure that you use the correct data elements that you created previously for your Campaign server and pKey.
 
-`https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/`
+  `https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/`
 
-Click the box to add a post body and send the following:
+10. Click the box to add a post body and send the following:
 
-```text
-{
- "locationData": {
- "distances": "{%%Last Entered POI Radius%%}",
- "poiLabel": "{%%Last Entered POI Name%%}",
- "latitude": "{%%Last Entered POI Lat%%}",
- "longitude": "{%%Last Entered POI Long%%}",
- "appId": "{%%AppID%%}",
- "marketingCloudId": “{%%ecid%%}”
- }
-}
-```
+    ```text
+    {
+     "locationData": {
+     "distances": "{%%Last Entered POI Radius%%}",
+     "poiLabel": "{%%Last Entered POI Name%%}",
+     "latitude": "{%%Last Entered POI Lat%%}",
+     "longitude": "{%%Last Entered POI Long%%}",
+     "appId": "{%%AppID%%}",
+     "marketingCloudId": “{%%ecid%%}”
+     }
+    }
+    ```
 
-1. Ensure that you are using your specific data elements that you created in the previous section.
-2. In **Content Type**, type **application/json**.
-3. Click **Keep Changes** after you have this set up.
-4. I find it helpful to have a Slack web hook setup as an additional action to validate that my action is being triggered and that the right data is being collected.
+11. Ensure that you are using your specific data elements that you created in the previous section.
+12. In **Content Type**, type **application/json**.
+13. Click **Keep Changes** after you have this set up.
+14. I find it helpful to have a Slack web hook setup as an additional action to validate that my action is being triggered and that the right data is being collected.
 
 {% hint style="warning" %}
 Don’t forget to publish the recent changes to your app to make sure the rule and all of your data elements are deployed as part of your configuration. After publishing, you should launch the mobile application again to get the latest configuration updates.
@@ -109,20 +109,27 @@ Don’t forget to publish the recent changes to your app to make sure the rule a
 Now that we have location data populated in Campaign, we can use POIs as an audience segment tool.
 
 1. In your Adobe Campaign Standard instance, click **Create Push Notification**.
-2. For the push notification type, select **Send push to app subscribers**.  This push type targets all users of your application. if your mobile users are attached to a Campaign profile, you can also select **Send push to Campaign profiles**.
+2. For the push notification type, select **Send push to app subscribers**.  
+
+    This push type targets all users of your application. if your mobile users are attached to a Campaign profile, you can also select **Send push to Campaign profiles**.
 3. Click **Next** and type the general details on the next screen.
-4. On the Audience screen, click **Count** to see how many estimated user the push notification will be sent to.  In this case, my count will equal three, as I have three devices that I have installed in which to test the application.
+4. On the Audience screen, click **Count** to see how many estimated user the push notification will be sent to.  
+
+    In this case, my count will equal three, as I have three devices that I have installed in which to test the application.
+
 5. On the left sidebar, expand the **Profile** tab and drag the **POI location** filter to the main area
-6. In the POI filter window, enter the exact name of the POI that you want to target.  You can make additional selections to determine the range of time since the user’s last visit to this POI.
+6. In the POI filter window, enter the exact name of the POI that you want to target.  
+
+    You can make additional selections to determine the range of time since the user’s last visit to this POI.
 
 ![A screenshot of a cell phone
 
 Description automatically generated](.gitbook/assets/2.png)
 
-1. Click **Confirm**.
-2. Run the count again at the top to see your audience size change.  If you do not se your count update, you might have entered a POI name for which no devices have triggered an entry. This is where having the Slack web hook becomes valuable, because you can see a listing of POI entries from various test devices.
-3. You can drag out additional POI location filters to include multiple POIs in your message.
-4. Click **Next** to finish creating the push notification for delivery.
+7. Click **Confirm**.
+8. Run the count again at the top to see your audience size change.  If you do not se your count update, you might have entered a POI name for which no devices have triggered an entry. This is where having the Slack web hook becomes valuable, because you can see a listing of POI entries from various test devices.
+9. You can drag out additional POI location filters to include multiple POIs in your message.
+10. Click **Next** to finish creating the push notification for delivery.
 
 ![A screenshot of a cell phone
 
@@ -137,7 +144,10 @@ In addition to push notifications, you can also use location data to segment whi
 3. Click **Next** and type the general details on the next screen.
 4. You’ll see on the left sidebar that you can now use a variety triggers related to Places.
 5. I can choose to have the in-app message display if the user has entered a POI geo-fence
-6. I can also use metadata that I defined in the Location Services UI to filter my audience.  In this example I want to trigger an in-app message shown only to users that last exited a POI that also had a Gym facility. Perhaps I want to send them a survey to see if they used/liked the gym.
+6. I can also use metadata that I defined in the Location Services UI to filter my audience.  
+
+   In this example I want to trigger an in-app message shown only to users that last exited a POI that also had a Gym facility. Perhaps I want to send them a survey to see if they used/liked the gym.
+
 7. Click the **Next** to finish creating the in-app message for delivery.
 
 ![A screenshot of a social media post
