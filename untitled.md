@@ -13,7 +13,6 @@ Having a deep understanding your customers preferences and habits are key to any
 According to a recent report from eMarketer, 85% of high-performing retailers believe that location is important to their marketing efforts. Additionally, over 58% of retailers in North America are planning to invest in proximity/location technologies to enhance their customer experiences.
 
 ![A screenshot of a cell phone
-
 Description automatically generated](.gitbook/assets/0.png)
 
 Think about how critical location is in your smartphone usage experience. How often do ask your smartphone to find nearby restaurants, gas stations, grocery stores or other services?
@@ -56,9 +55,8 @@ After you verify that the Places and Places Monitor extensions are working corre
 
     **Last Entered** retrieves the name of the POI that user last entered, and **Last Exited**  provides the name of the POI that the user last left. For this example, we will selected **Last Entered** and typed a name for the data element, such as **Last Entered POI Name** and clicked **Save**.
 
-![A screenshot of a social media post
-
-Description automatically generated](.gitbook/assets/1.png)
+    ![A screenshot of a social media post
+    Description automatically generated](.gitbook/assets/1.png)
 
 5. Repeat the same steps above and create data elements for _Last Entered POI Latitude_, _Last Entered POI Longitude_, and _Last Entered POI Radius_.
 
@@ -78,7 +76,7 @@ Rules in Experience Platform Launch allow you to create complex, multi-solution 
 8. In the **Extension** drop-down list, select **Mobile Core,** and in the **Action Type** drop-down list, select **Send Postback**.
 9. For the **URL**, you need to construct your Campaign Standard locations endpoint.   The URL should look similar to the one below. Ensure that you use the correct data elements that you created previously for your Campaign server and pKey.
 
-  `https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/`
+    `https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/`
 
 10. Click the box to add a post body and send the following:
 
@@ -122,18 +120,16 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 
     You can make additional selections to determine the range of time since the user’s last visit to this POI.
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/2.png)
+    ![A screenshot of a cell phone
+    Description automatically generated](.gitbook/assets/2.png)
 
 7. Click **Confirm**.
 8. Run the count again at the top to see your audience size change.  If you do not se your count update, you might have entered a POI name for which no devices have triggered an entry. This is where having the Slack web hook becomes valuable, because you can see a listing of POI entries from various test devices.
 9. You can drag out additional POI location filters to include multiple POIs in your message.
 10. Click **Next** to finish creating the push notification for delivery.
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/3.png)
+    ![A screenshot of a cell phone
+    Description automatically generated](.gitbook/assets/3.png)
 
 ### Receiving In-App messages
 
@@ -150,9 +146,8 @@ In addition to push notifications, you can also use location data to segment whi
 
 7. Click the **Next** to finish creating the in-app message for delivery.
 
-![A screenshot of a social media post
-
-Description automatically generated](.gitbook/assets/4.png)
+    ![A screenshot of a social media post
+    Description automatically generated](.gitbook/assets/4.png)
 
 Using Adobe Experience Platform Location Services with Adobe Campaign Standard gives you a  powerful tool to segment and target your messaging to users based on historical location. This simple integration opens the door for building out more personalized and contextual use cases.
 
