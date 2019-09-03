@@ -10,7 +10,7 @@ _Thanks for visiting us last week, we’d love to give you a surprise for use on
 
 Having a deep understanding your customers preferences and habits are key to any successful marketing campaign. The items a user has searched for and previous purchase history play a major role in audience targeting. Knowing whether a user has visited a physical location can also add some valuable context when forming a relationship with the consumer.
 
-According to a recent report from eMarketer, 85% of high-performing retailers believe that Location is very important to their marketing efforts. Additionally, over 58% of retailers in North America are planning to invest in proximity/location technologies to enhance their customer experiences.
+According to a recent report from eMarketer, 85% of high-performing retailers believe that location is important to their marketing efforts. Additionally, over 58% of retailers in North America are planning to invest in proximity/location technologies to enhance their customer experiences.
 
 ![A screenshot of a cell phone
 
@@ -24,9 +24,9 @@ Before we begin, this guide assumes that you have a mobile application configure
 
 #### **Prerequisites**
 
-1. Integrate the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app
-2. Add the [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to your mobile app configuration
-3. [Create one or more points of interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) \(POI\) in the Adobe Experience Platform Location Services
+1. Integrate the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app.
+2. Add the [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to your mobile app configuration.
+3. [Create one or more POIs](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) in Adobe Experience Platform Location Services.
 
 {% hint style="info" %}
 If you are looking for ways to bulk upload or manage POIs, take a look at this [script to upload POIs from a CSV](https://github.com/adobe/places-scripts) file. The [Location Service APIs](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis) can also be used to create or manage points of interest.
@@ -95,9 +95,9 @@ Click the box to add a post body and send the following:
 }
 ```
 
-1. Make sure that you are using your specific data elements that you created in the previous section.
+1. Ensure that you are using your specific data elements that you created in the previous section.
 2. In **Content Type**, type **application/json**.
-3. Click Keep Changes after you have this set up.
+3. Click **Keep Changes** after you have this set up.
 4. I find it helpful to have a Slack web hook setup as an additional action to validate that my action is being triggered and that the right data is being collected.
 
 {% hint style="warning" %}
@@ -144,9 +144,7 @@ In addition to push notifications, you can also use location data to segment whi
 
 Description automatically generated](.gitbook/assets/4.png)
 
-
-
-Using Adobe Experience Platform Location Services in conjunction with Adobe Campaign Standard gives you a very powerful tool to segment and target your messaging to users based on historical location. This simple integration opens the door for building out more personalized and contextual use cases.
+Using Adobe Experience Platform Location Services with Adobe Campaign Standard gives you a  powerful tool to segment and target your messaging to users based on historical location. This simple integration opens the door for building out more personalized and contextual use cases.
 
 We’re constantly evolving the Adobe Experience Platform Location Services product and the solutions integrated to bring location context into mobile workflows. One product that will take advantage of Platform Location Services, is the upcoming Triggered Journey’s solution that will allow customers to create real-time workflows based on event triggers such as location.
 
