@@ -15,14 +15,14 @@ To get provisioned, complete the following tasks:
 
 For more information about configuring the Places extension and Monitor extension, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension) and [Places Monitor extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension).
 
-## Creating libraries and POIs
+## Create your libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
 
 * By using the web services.  For more information, see [Places web services](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
 * By using the Places UI.  For more information, see [Places UI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1). 
 
-## Getting started with Adobe Experience Platform Location Services
+## Get started with Adobe Experience Platform Location Services
 
 {% embed url="https://www.youtube.com/watch?v=aV6i\_ayxWCw" %}
 

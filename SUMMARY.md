@@ -3,7 +3,7 @@
 * [Overview](README.md)
 * [Release notes](release-notes.md)
 * [Getting started](getting-started.md)
-* [Adding a user to Launch and Places](adding-a-user-to-launch-and-places.md)
+* [Add a user to Launch and Places](adding-a-user-to-launch-and-places.md)
 * [Places web services](places-rest-apis/README.md)
   * [Organizational requirements](places-rest-apis/organizational-requirements.md)
   * [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/README.md)

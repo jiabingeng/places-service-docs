@@ -6,7 +6,7 @@ To enable location awareness in your mobile app, configure the SDK with the Plac
 * [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension)
 * [Places Monitor extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension)
 
-## Configuring the Places extension
+## Configure the Places extension
 
 To configure the SDK with Places:
 
@@ -14,7 +14,7 @@ To configure the SDK with Places:
 2. Add the Places extension to your mobile app. For more information, see [Add the Places extension to your app](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#add-the-places-extension-to-your-app).
 3. Register Places with the Mobile Core extension. For more information, see [Register Adobe Places with Mobile Core](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#register-adobe-places-with-mobile-core).
 
-## Configuring the Places Monitor extension
+## Configure the Places Monitor extension
 
 To configure the Places Monitor extension in Experience Platform Launch:
 

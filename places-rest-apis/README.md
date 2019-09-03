@@ -21,6 +21,6 @@ Before you can use the Places API, ensure that the following requirements have b
 
 Additional information:
 
-* For more information about information about the available APIs and how to use them, see [API Usage](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/api-usage). 
+* For more information about information about the available APIs and how to use them, see [API usage](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/api-usage). 
 * For more information about the headers and parameters in these APIs, see [Headers and parameters](https://launch.gitbook.io/places-services-by-adobe-documentation/places-rest-apis/api-usage/headers-and-parameters).
 
