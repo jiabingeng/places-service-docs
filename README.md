@@ -51,14 +51,14 @@ Here are some common terms that are used in the Places documentation:
 
 To access the Places UI, in a browser, go to [ https://places.adobe.com](%20https://places.adobe.com) and log in with your Adobe ID. 
 
-Here is some basic information to help you get familiarized with the UI:
+Here is some basic information to help you become familiar with the UI:
 
-* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
+* In the top right corner, there are buttons that you can click to create a library, POIs, and filter your search.
+* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
 * Double click to zoom in or click and drag to recenter the map.
-* You can also use the arrow keys to scroll the map
-* In the lower right corner, to create a new point of interest \(POI\), click **New POI**.
+* You can also use the arrow keys to scroll the map.
 
-![](.gitbook/assets/places_ui_intro.png)
+![](.gitbook/assets/location-services.png)
 
 ## Places workflow
 
