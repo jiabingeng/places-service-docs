@@ -140,7 +140,12 @@ void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
         if (poi.containsUser()) {
             // the user is in the poi, now we need to make sure we haven't already recorded this entry event
             if (!regionsUserIsAlreadyIn.contains(poi.getIdentifier())) {
-                Geofence poiGeofence = new Geofence.Builder().setRequestId(poi.getIdentifier()).build();
+                Geofence poiGeofence = new Geofence.Builder()
+                    .setRequestId(poi.getIdentifier())
+                    .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER)
+                    .setCircularRegion(poi.getLatitude(), poi.getLongitude(), poi.getRadius())
+                    .setExpirationDuration(Geofence.NEVER_EXPIRE)
+                    .build();
                 Places.processGeofence(poiGeofence, Geofence.GEOFENCE_TRANSITION_ENTER);
             }
 
@@ -292,7 +297,12 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
             if (poi.containsUser()) {
                 // the user is in the poi, now we need to make sure we haven't already recorded this entry event
                 if (!regionsUserIsAlreadyIn.contains(poi.getIdentifier())) {
-                    Geofence poiGeofence = new Geofence.Builder().setRequestId(poi.getIdentifier()).build();
+                    Geofence poiGeofence = new Geofence.Builder()
+                        .setRequestId(poi.getIdentifier())
+                        .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER)
+                        .setCircularRegion(poi.getLatitude(), poi.getLongitude(), poi.getRadius())
+                        .setExpirationDuration(Geofence.NEVER_EXPIRE)
+                        .build();
                     Places.processGeofence(poiGeofence, Geofence.GEOFENCE_TRANSITION_ENTER);
                 }
 
