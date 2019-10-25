@@ -47,7 +47,7 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 3. From the **Condition Type** drop-down list, select **Name**.
 
-4. In the window on the right, enter **My POI** in the text field.
+4. In the window on the right, in the text field, enter **My POI**.
 
 5. Click **Keep Changes**.
 
