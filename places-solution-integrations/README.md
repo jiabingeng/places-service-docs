@@ -1,10 +1,10 @@
 # Places Solution Integrations
 
-By itself, using Adobe Places to collect location data isn't very useful in your app. You will start to get real value from location data when you provide it to your other Adobe solutions. This will allow you to use the location data to deliver custom experiences and make informed decisions.
+Using Places alone to collect location data is not useful in your app. The real value comes from location data that you provide to other Adobe solutions. You can use this data to deliver custom experiences and make informed decisions.
 
-This section will cover how to integrate Adobe Places with other AEP SDK extensions so you can put your location data to work.
+This section provides information about how to integrate Places with other Mobile SDK extensions, so you can put your location data to work.
 
-## Current Extension Integrations
+## Current extension integrations
 
 #### [Adobe Analytics](analytics/README.md)
 - [Attaching Places Data to Analytics Requests](analytics/attach-data.md)
