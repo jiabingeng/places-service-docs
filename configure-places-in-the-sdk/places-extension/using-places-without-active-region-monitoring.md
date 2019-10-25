@@ -119,7 +119,7 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 The SDK returns a list of nearby POIs, including whether the user is currently within each POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
 
 {% hint style="important" %}
-To prevent your app from triggering multiple entry events, keep a list of the regions in which you know the user is. When processing the response of nearby POIs from the SDK, if you have not yet triggered an entry event for the if you haven't already triggered one for the region in question.
+To prevent your app from triggering multiple entry events in one visit, keep a list of the regions in which you know the user has entered. When processing the response of nearby POIs from the SDK, trigger an entry event only when the region is not in your list.
 
 In the following code sample, `NSUserDefaults` (iOS) and `SharedPreferences` (Android) are used:
 {% endhint %}
