@@ -1,18 +1,22 @@
-Places Import script
+Bulk uploading POIs
 =================
-A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a Places database by using the Places REST APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). Please check the [Organizational Requirements](../places-rest-apis/organizational-requirements.md) and [Adobe I/O integation](../places-rest-apis/adobe-i-o-integration/README.md) sections before running  these script to ensure you have access to the Places REST APIs.
+A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
-Following is information on the scripts. This information is also included in a readme file in the [git repo](https://github.com/adobe/places-scripts).
+Before you run these scripts, to ensure you have access to the Web Service APIs, see [Organizational Requirements](../places-rest-apis/organizational-requirements.md) and [Adobe I/O integation](../places-rest-apis/adobe-i-o-integration/README.md) 
+
+Here is some information about the scipts. 
+
+**Tip**: This information is also included in a readme file in the [git repo](https://github.com/adobe/places-scripts).
 
 ## CSV file
 
-A sample .csv file, `places_sample.csv`, is part of this package and includes the required headers and a row of sample data. These headers are all lower case and correspond to the reserved metatdata keys that are used in the Places database. When you add headers, the additional columns are added to the Places database in a separate metadata section for each POI as key/value pairs.
+A sample .csv file, `places_sample.csv`, is part of this package and includes the required headers and a row of sample data. These headers are all lower case and correspond to the reserved metatdata keys that are used in the Places database. When you add headers, the additional columns are added to the POI database in a separate metadata section for each POI as key/value pairs.
 
 Here is a list of the columns and the values that you need to use:
 
 * lib_id
 
-  A valid library ID that is obtained from Places database.
+  A valid library ID that is obtained from the POI database.
 
 * type
 
@@ -32,15 +36,15 @@ Here is a list of the columns and the values that you need to use:
 
 **Column values**
 
-The values of the following columns are used in the Places UI:
+The values of the following columns are used in the Location Service UI:
 
-* color, which is used as the color of the pin that represents the location of the POI in the Places UI map.
+* color, which is used as the color of the pin that represents the location of the POI in the Location Service UI map.
   - The valid values are "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, and #3DC8DE.
-  - If the value is left blank, the UI uses blue as the default color.
+  - If the value is left blank, the Location Service UI uses blue as the default color.
     
     The values correspond to blue, purple, fuschia, orange, light orange, yellow, light green, green, and light blue, respectively.
   
-* icon, which is used as the icon on the pin that represents the location of the POI on the Places UI map
+* icon, which is used as the icon on the pin that represents the location of the POI on the Location Service UI map
   - The valid values are "", anchor, beaker, bell, browse, book, brush, building, calculator, camera, shoppingCart, clock, box, flashlight, follow, bid, ribbon, education, hammer, heart, home, key, mailbox, male, promote, money, trap, game, gift, launch, star, lightbulb, pin, target, teapot, thumbDown, thumbUp, briefcase, trophy, female, and wrench.
   - If the value is left blank, the UI uses star as the default icon.
 
@@ -55,7 +59,7 @@ Running the Script
 
       * `csv_file_path`
 
-        The path to your csv file.
+        The path to your `.csv`  file.
 
       * `access_code`
       
@@ -67,7 +71,7 @@ Running the Script
       
       * `api_key`
       
-        This is your Places REST API key obtained from your AdobeIO Places Integration.
+        This is your Places REST API key obtained from your Adobe I/O Places Integration.
 
     1. Save your changes.
 1. In a terminal window, navigate to the `…/places-scripts/import/` directory.
