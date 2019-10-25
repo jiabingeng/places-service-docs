@@ -14,10 +14,7 @@ This section provides information about how to use the REST APIs and the Places 
 
 The Places REST APIs let you work programmatically with your organization's POIs. These APIs allow you to create, update, and delete your libraries and the POIs in those libraries. These APIs use JavaScript Object Notation \(JSON\) standards to format the data that is sent and received. A principal advantage of JSON is that it makes API queries easy to write, read, and parse by developers and machines.
 
-Before you can use the Places API, ensure that the following requirements have been met:
-
-1. Places is provisioned in your organization, and you have appropriate access as a user.   For more information, see [Organization requirements](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/places-rest-apis/organizational-requirements).
-2. After Places is provisioned in your organization, and you have access, create an Adobe Integration for Places. For more information, see [Creating an Adobe I/O Integration](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management/places-rest-apis/adobe-i-o-integration).
+Before you can use the Places API, you will need to complete the prerequistes found on this page.[Creating an Adobe I/O Integration](adobe-i-o-integration).
 
 Additional information:
 
