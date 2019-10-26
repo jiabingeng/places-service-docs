@@ -1,15 +1,18 @@
 # Getting started
 
-## Get provisioned to use Adobe Places
+## Get provisioned to use Adobe Location Service
 
-Places requires special provisioning context with your regular Adobe Experience Platform provisioning context.
+Location Service requires special provisioning context with your regular Adobe Experience Platform provisioning context.
 
 To get provisioned, complete the following tasks:
 
-* In the Admin Console, ensure that your organization is provisioned with Places.   If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
-* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.  For more information, see [Adding a user to Launch and Places](https://placesdocs.com/places-services-by-adobe-documentation/adding-a-user-to-launch-and-places).
-* Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension). 
-* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  This allows you to add your POIs and Libraries.
+* In the Admin Console, ensure that your organization is provisioned with Location Service (Places Core Service).
+  If you are not the Adobe administrator, contact the administrator to ensure the Location Service (Places Core Service) context is seen in Admin Console.
+* Ensure you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  For more information, see [Adding a user to Experience Platform Launch and Location Service](adding-a-user-to-launch-and-places).
+* Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   
+  For more information, see [Places extension](configure-places-in-the-sdk/places-extension/README). 
+* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Location Service.  
+  This allows you to add your POIs and libraries.
 
 ## Configure the Places extension and Places Monitor extension
 

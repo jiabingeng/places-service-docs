@@ -23,12 +23,15 @@ Here are some of the ways you can use Places:
 
 Places comprises the following components:
 
-* **Places web service** You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web service](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
-* **Places UI** Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
-* **Places SDK** The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension).
-* **Places rules** The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. The rules also allow you to use geo-attributes in conditions to personalize the experience. 
-* **Places Monitor**  
-  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension).
+* **Places web service** - You can create and manage POIs by using the REST APIs. 
+  For more information about the REST APIs, see [Places web service](places-rest-apis/README.md).
+* **Places UI** - Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
+* **Places SDK** - The multi-platform mobile API interface to integrate the location context in your mobile apps. 
+  For more information about the SDKs, see [Places extension](configure-places-in-the-sdk/places-extension/README.md).
+* **Places rules** - The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. 
+  The rules also allow you to use geo-attributes in conditions to personalize the experience. 
+* **Places Monitor**  - The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. 
+  For more information, see [Places extension](configure-places-in-the-sdk/places-extension/README.md).
 
 ## Terminology
 
