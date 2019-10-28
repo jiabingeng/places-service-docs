@@ -42,7 +42,7 @@
     * [Using the Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension.md)
     * [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
     * [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
-  * [Creating a rule for your Places property](configure-places-in-the-sdk/creating-a-rule-for-your-places-property.md)
+  * [Create Places entry and exit rules in Launch](configure-places-in-the-sdk/creating-a-rule-for-your-places-property.md)
 * [Using Experience Platform Launch rules and data elements with Places data](locations.md)
 * [Places use cases](places-use-cases.md)
 * [Places FAQs](places-faqs.md)

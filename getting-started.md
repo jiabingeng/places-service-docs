@@ -6,12 +6,17 @@ Location Service requires special provisioning context with your regular Adobe E
 
 To get provisioned, complete the following tasks:
 
-* In the Admin Console, ensure that your organization is provisioned with Location Service (Places Core Service).
-  If you are not the Adobe administrator, contact the administrator to ensure the Location Service (Places Core Service) context is seen in Admin Console.
-* Ensure you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  For more information, see [Adding a user to Experience Platform Launch and Location Service](adding-a-user-to-launch-and-places).
+* In the Admin Console, ensure that your organization is provisioned with Location Service \(Places Core Service\).
+
+  If you are not the Adobe administrator, contact the administrator to ensure the Location Service \(Places Core Service\) context is seen in Admin Console.
+
+* Ensure you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  For more information, see [Adding a user to Experience Platform Launch and Location Service](https://github.com/jiabingeng/places-service-docs/tree/49828e84f5b8d9fbd65d193f5162976bd580c807/adding-a-user-to-launch-and-places/README.md).
 * Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   
-  For more information, see [Places extension](configure-places-in-the-sdk/places-extension/README). 
+
+  For more information, see [Places extension](https://github.com/jiabingeng/places-service-docs/tree/49828e84f5b8d9fbd65d193f5162976bd580c807/configure-places-in-the-sdk/places-extension/README/README.md). 
+
 * If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Location Service.  
+
   This allows you to add your POIs and libraries.
 
 ## Configure the Places extension and Places Monitor extension
@@ -27,7 +32,5 @@ You can create libraries and POIs in one of the following ways:
 
 ## Get started with Adobe Experience Platform Location Services
 
-{% embed url="https://www.youtube.com/watch?v=aV6i\_ayxWCw" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=aV6i\_ayxWCw" caption="" %}
 

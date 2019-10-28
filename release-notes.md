@@ -32,11 +32,8 @@
 * Monitoring status is now persisted between launches.
 * The handling of the callback, which resulted from a location permission request no longer requires you to extend PlacesActivity.
 * Changed an existing API, allowing developers to clear all Places data from the device :
-
-     * Old API: `public static void stop();`
-
-     * New API: `public static void stop(final boolean clearData);`
-
+  * Old API: `public static void stop();`
+  * New API: `public static void stop(final boolean clearData);`
 * Updated the use of the Places `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
 ## July 25, 2019

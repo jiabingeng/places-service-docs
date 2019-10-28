@@ -12,7 +12,7 @@ Places in Adobe's Experience Cloud geo-location service allows you to achieve th
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context provides a more enriching mobile engagement experience.
 
-Here are some of the ways you can use Places: 
+Here are some of the ways you can use Places:
 
 * Send a real time notification when someone enters a POI, _"Hey..welcome to the stadium"_. 
 * Analyze foot traffic of your own stores versus your competitor stores.
@@ -24,14 +24,21 @@ Here are some of the ways you can use Places:
 Places comprises the following components:
 
 * **Places web service** - You can create and manage POIs by using the REST APIs. 
-  For more information about the REST APIs, see [Places web service](places-rest-apis/README.md).
+
+  For more information about the REST APIs, see [Places web service](places-rest-apis/).
+
 * **Places UI** - Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
 * **Places SDK** - The multi-platform mobile API interface to integrate the location context in your mobile apps. 
-  For more information about the SDKs, see [Places extension](configure-places-in-the-sdk/places-extension/README.md).
+
+  For more information about the SDKs, see [Places extension](configure-places-in-the-sdk/places-extension/).
+
 * **Places rules** - The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. 
+
   The rules also allow you to use geo-attributes in conditions to personalize the experience. 
+
 * **Places Monitor**  - The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. 
-  For more information, see [Places extension](configure-places-in-the-sdk/places-extension/README.md).
+
+  For more information, see [Places extension](configure-places-in-the-sdk/places-extension/).
 
 ## Terminology
 
@@ -43,7 +50,7 @@ Here are some common terms that are used in the Places documentation:
 * A **library** is a collection of POIs, which are grouped to easily attach rules to a set instead of one POI. 
 * A SDK **extension**, is the Experience Platform Launch
 
-   extension that is required to integrate the Places SDK in your mobile apps.   
+  extension that is required to integrate the Places SDK in your mobile apps.  
   The extension used with the other mobile SDKs to add location context to your experiences.
 
 * An **organization** is the Adobe entity that identifies your company in the Adobe Experience Cloud. Typically, an organization is your company name. However, a company can have more than one organization. The organization administrator can configure groups and users and configure single sign-on functionality.
@@ -52,7 +59,7 @@ Here are some common terms that are used in the Places documentation:
 
 ## Understanding the Places UI
 
-To access the Places UI, in a browser, go to [ https://places.adobe.com](%20https://places.adobe.com) and log in with your Adobe ID. 
+To access the Places UI, in a browser, go to [ https://places.adobe.com](./) and log in with your Adobe ID.
 
 Here is some basic information to help you become familiar with the UI:
 
