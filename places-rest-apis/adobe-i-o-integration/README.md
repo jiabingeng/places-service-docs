@@ -67,13 +67,13 @@ To create a Places integration:
 
 1. Go to [https://console.adobe.io/](https://console.adobe.io/) and sign in with your Adobe ID.
 
-2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
+2. Click on the **Create integration** in the **Quick Start** section.
 
-3. Click **New Integration**.
+3. Select **Access an API**(default selection) and click **Continue**.
 
-4. Select **Access an API** and click **Continue**.
+4. If you have access to more than one Experience Cloud organization, select the desired organization from the drop-down list on the top right.
 
-5. Under **Experience Cloud**, select **Places** as the Adobe service to which you want to integrate and click **Continue**.
+5. Under **Experience Cloud**, select **Places** as the Adobe service to which you want to integrate with and click **Continue** near the bottom of the page.
 
 6. Select **New integration** and click **Continue**.
 
@@ -81,17 +81,21 @@ To create a Places integration:
 
 8. Drag and drop your `xxxx_public.crt` file, created above, to the **Public keys certificates** drop zone.
 
-9. At the bottom of the page, click **Create integration**.
+9. Select a product profile. Check with System Admin for you organization if unsure which to select.
 
-10. After a few seconds, in the _Integration created_ screen, verify that the following message appears:
+10. At the bottom of the page, click **Create integration**.
+
+11. After a few seconds, in the _Integration created_ screen, verify that the following message appears:
 
     `Your integration has been created.`
 
-11. Click **Continue to integration details**.  An overview of your integration with the API key, your organization ID, the technical account ID, and other details about your integrations are displayed.
+12. Click **Continue to integration details**.  
+
+13. The integration details page appears, with the name of the integration at the top. The Overview tab is shown by default which displays the API key, your organization ID, the technical account ID, and other details about your integrations.
 
 #### Record the organization ID and the API key
 
-1. On the **Services** tab, confirm that **Places** is displayed.
+1. On the integration details page, click the **Services** tab, confirm that **Places** is displayed under **Configured Services**.
 
 2. On the **Overview** tab, locate and record the API Key \(Client ID\) and the Organization ID.
 
@@ -101,7 +105,7 @@ To create a Places integration:
 
 #### Generate a JWT token
 
-On the **JWT** tab, the Adobe I/O console allows you to test your integration by generating a JWT and providing the exchange URL.
+On the integration details page, click the **JWT** tab, the Adobe I/O console allows you to test your integration by generating a JWT and providing the exchange URL.
 
 To generate a JWT token:
 
@@ -112,7 +116,7 @@ To generate a JWT token:
 5. Run the command by pressing **Enter** on your keyboard.
 6. Locate the `"token_type": "bearer"` and the `"access_token"` value.   The value of the bearer access token is what you will use in your Places API requests.  
 
-**Important**: Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command \(step 5\). If the access token is no longer valid, you need to generate the token again.
+**Important**: Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command \(step 5\). If the access token is no longer valid, you need to regenerate the token.
 
 
 ## Additional resources
