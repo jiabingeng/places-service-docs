@@ -32,7 +32,7 @@ Each POI contains the following data references:
 1. In the Property page for your app, click the Data Elements tab.
 
 2. Click **Create New Data Element**.
-![Create DE 2](../.gitbook/assets/create-de-2-v2.png)
+![Create DE 2](../.gitbook/assets/create-de-2-v3.png)
 
 3. In the list of installed extensions, find Places.
 
@@ -43,13 +43,13 @@ Each POI contains the following data references:
 6. If this data element is a custom metadata reference, select a metadata key.
 
 7. Type a name for the data element, and click **Save**.
-![Create DE 7](../.gitbook/assets/create-de-7-v2.png)
+![Create DE 7](../.gitbook/assets/create-de-7-v3.png)
 
 
 ### Use a data element
 
 After a data element is created, if a data element picker is present, you can use the data element from any rule component.
-![Use DE 1](../.gitbook/assets/use-de-1.png)
+![Use DE 1](../.gitbook/assets/use-de-v2.png)
 
 If a data element picker is not present in the rule component, you can use the data element by wrapping the data element name with the **%%** tokens.
 For example, if the data elmement name is **Last POI City**, you may add **%%LAST POI City%%** to a text input.
