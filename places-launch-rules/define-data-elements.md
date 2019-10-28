@@ -30,32 +30,26 @@ Each POI contains the following data references:
 ### Create a data element
 
 1. In the Property page for your app, click the Data Elements tab.
-![Create DE 1](../.gitbook/assets/create-de-1.png)
 
 2. Click **Create New Data Element**.
-![Create DE 2](../.gitbook/assets/create-de-2.png)
+![Create DE 2](../.gitbook/assets/create-de-2-v2.png)
 
 3. In the list of installed extensions, find Places.
-![Create DE 3](../.gitbook/assets/create-de-3.png)
 
 4. In the **Data Element Type** drop-down list, select a data reference for this data element.
-![Create DE 4](../.gitbook/assets/create-de-4.png)
 
 5. Select a POI target.
-![Create DE 5](../.gitbook/assets/create-de-5.png)
 
 6. If this data element is a custom metadata reference, select a metadata key.
-![Create DE 6](../.gitbook/assets/create-de-6.png)
 
 7. Type a name for the data element, and click **Save**.
-![Create DE 7](../.gitbook/assets/create-de-7.png)
+![Create DE 7](../.gitbook/assets/create-de-7-v2.png)
 
 
 ### Use a data element
 
 After a data element is created, if a data element picker is present, you can use the data element from any rule component.
 ![Use DE 1](../.gitbook/assets/use-de-1.png)
-![Use DE 2](../.gitbook/assets/use-de-2.png)
 
 If a data element picker is not present in the rule component, you can use the data element by wrapping the data element name with the **%%** tokens.
 For example, if the data elmement name is **Last POI City**, you may add **%%LAST POI City%%** to a text input.
@@ -64,4 +58,3 @@ For example, if the data elmement name is **Last POI City**, you may add **%%LAS
 ### Publish data elements
 
 If data elements are used in any of the rule components, these data elements must also be included in the library and published.
-![Publish DE](../.gitbook/assets/publish-de.png)
