@@ -1,6 +1,6 @@
-# Creating a rule for your Places property
+# Create Places entry and exit rules in Launch
 
-The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs.
+With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including Places location entry and exit events. 
 
 ## Rules
 
@@ -69,7 +69,7 @@ To create a data element in Experience Platform Launch:
 
 ### Create a rule in Experience Platform Launch for Places
 
-![](../.gitbook/assets/create-a-rule.png)
+![](../.gitbook/assets/placesrule.png)
 
 1. In Experience Platform Launch, click the **Rules** tab.
 2. Click **Add Rule**.
@@ -114,4 +114,10 @@ To create a data element in Experience Platform Launch:
 ### Publish the rule
 
 1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
+
+### Thinking beyond entries and exits
+
+Using Places geo-fence entries and exits to trigger rules in Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based upon this event, you could place additional location conditions to the event before an action is performed. i.e. open up an in-app survey when a purchase trackAction event occurs, but ONLY if the user's current location include specific Places metadata. 
+
+![](../.gitbook/assets/places-condition.png)
 
