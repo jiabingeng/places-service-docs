@@ -5,10 +5,8 @@ Verify with your organization's System administrator that the following items ha
 
 1. Places Core Service appears in your organization's admin console. 
 2. You have been added to the organization. 
-3. You have been added as a User to Places Core Service in your organization. 
-For more information, see [Adding a user to Launch and Places](../adding-a-user-to-launch-and-places).
-4. You have been added as a Developer to Places Core Service in your organization.  
-For more information on adding develpers see the appropirate section on this page: [Adding a user to Launch and Places](../adding-a-user-to-launch-and-places).
+3. You have been added as a User and as a Developer to Places Core Service in your organization. 
+For more information, see [Adding a user to Launch and Places](../../adding-a-user-to-launch-and-places).
 
 ## Adobe I/O Integration for Location Services
 
@@ -28,7 +26,9 @@ To create a Places integration, you need a public and a private key pair. These 
 
 To generate your own self-signed keys:
 
-1. In a terminal window, copy and paste each of the following lines and press **Enter** after pasting each line:
+1. Open a terminal window and navigate to your user folder. 
+
+2. In a terminal window, copy and paste each of the following lines and press **Enter** after pasting each line:
 
    ```text
       mkdir keys
@@ -38,16 +38,16 @@ To generate your own self-signed keys:
 
    **Tip**: We recommend that you name your keys for easy reference and store them in a folder. If you create multiple integrations, you can easily identify and manage which keys belong to which integration.  
 
-2. Type the information that is requested by OpenSSL:
+3. Type the information that is requested by OpenSSL:
 
    ```text
    Country Name (2 letter code:  // Example: US
    State or Province Name (full name):  // Example: California
    Locality Name (eg, city):  // Example: San Jose
-   Organization Name (eg, company):  // Example: Places
+   Organization Name (eg, company):  // Example: Adobe
    Organizational Unit Name (eg, section):  // Example: Engineering
-   Common Name (eg, fully qualified host name):  // Example: places.com
-   Email Address:  // Example:  poi@places.com
+   Common Name (eg, fully qualified host name):  // Example: adobe.com
+   Email Address:  // Example:  joe.poi@adobe.com
    ```
 
    For more information about OpenSSL, see [OpenSSL](https://www.openssl.org/).  
@@ -55,7 +55,7 @@ To generate your own self-signed keys:
 
    **Important**: The information that you provide is incorporated into the keys.  
 
-3. Navigate to the directory where the `.key` and `.crt` files are located. For example, in iOS, go to **Macintosh HD** &gt; **users** &gt; \(**your user name**\) &gt; **Keys**.
+3. Navigate to the directory where the `.key` and `.crt` files are located. For example, on macOS, go to **Macintosh HD** &gt; **users** &gt; \(**your user name**\) &gt; **keys**.
 
 The following video guides you through the process of generating the key pair:
 
@@ -120,5 +120,5 @@ To generate a JWT token:
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
 * To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
-**Important:** If you cannot log in to the Adobe I/O console, or if Places is not an option in the _Create Integrations_ screen in teh Adobe I/O console, confirm the user access steps at the beginning of this page have been completed.
+**Important:** If you cannot log in to the Adobe I/O console, or if Places is not an option in the _Create Integrations_ screen in the Adobe I/O console, confirm the user access steps at the beginning of this page have been completed.
 
