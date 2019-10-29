@@ -2,7 +2,7 @@ Bulk uploading POIs
 =================
 A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
-Before you run these scripts, please check the prerequisites to gain access to these Web Services APIs, [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md)
+Before you run these scripts, to access the Web Services APIs, check the [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
 
 Here is some information about the scipts. 
 
@@ -10,7 +10,7 @@ Here is some information about the scipts.
 
 ## CSV file
 
-A sample .csv file, `places_sample.csv`, is part of this package and includes the required headers and a row of sample data. These headers are all lower case and correspond to the reserved metatdata keys that are used in the Places database. Any additional columns added to the csv file will be added to the POI database in a separate metadata section for each POI as key/value pairs, with the header value used as the key.
+A sample .csv file, `places_sample.csv`, is part of this package and includes the required headers and a row of sample data. These headers are all lower case and correspond to the reserved metatdata keys that are used in the Places database. Columns that you add to the csv file will be added to the POI database in a separate metadata section for each POI as key/value pairs, and the header value is used as the key.
 
 Here is a list of the columns and the values that you need to use:
 
@@ -53,7 +53,7 @@ The values of the following columns are used in the Location Service UI:
 
 Running the Script
 -------------
-1. Download files from the [git repo](https://github.com/adobe/places-scripts) to the desired directory.
+1. Download files from the [git repo](https://github.com/adobe/places-scripts) to your local directory.
 1. In a text editor, open the `config.py` file and complete the following tasks:
    1. Edit the following variable values as strings:
 
@@ -63,15 +63,15 @@ Running the Script
 
       * `access_code`
       
-        This is your access code obtained from the call to Adobe IMS. See [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) for directions on how to obtain this access code. 
+        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) . 
       
       * `org_id`
       
-        The Experience Cloud orgID into which the POIs are to be imported. See [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) for directions on how to obtain the org id.
+        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
       
       * `api_key`
       
-        This is your Places REST API key obtained from your Adobe I/O Places Integration. See [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) for directions on how to obtain the api key.
+        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
 
     1. Save your changes.
 1. In a terminal window, navigate to the `…/places-scripts/import/` directory.
