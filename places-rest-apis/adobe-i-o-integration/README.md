@@ -99,7 +99,7 @@ To generate a JWT token:
 1. In a text editor, open your `private.key` file that you created above.
 2. On the **JWT** tab, copy the contents of the key and paste it in the **Paste private key** field. 
 3. Click **Generate JWT**.
-4. In the **Sample CURL command** section, click **Copy**, \_\*\*\_and paste the contents in your command prompt or terminal window.
+4. In the **Sample CURL command** section, click **Copy** and paste the contents in your command prompt or terminal window.
 5. Run the command by pressing **Enter** on your keyboard.
 6. Locate the `"token_type": "bearer"` and the `"access_token"` value.    The value of the bearer access token is what you will use in your Places API requests.  
 
