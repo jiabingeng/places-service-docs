@@ -1,4 +1,4 @@
-# Adobe I/O integration
+# Integration overview and prerequisites
 
 ## User access
 

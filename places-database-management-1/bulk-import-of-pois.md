@@ -2,7 +2,7 @@ Bulk uploading POIs
 =================
 A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
-Before you run these scripts, to access the Web Services APIs, check the [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+Before you run these scripts, to access the Web Services APIs, check [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
 
 Here is some information about the scipts. 
 
@@ -63,15 +63,15 @@ Running the Script
 
       * `access_code`
       
-        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) . 
+        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md) . 
       
       * `org_id`
       
-        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
       
       * `api_key`
       
-        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
 
     1. Save your changes.
 1. In a terminal window, navigate to the `…/places-scripts/import/` directory.
