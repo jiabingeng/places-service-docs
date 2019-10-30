@@ -39,15 +39,17 @@ Here is a list of the columns and the values that you need to use:
 The values of the following columns are used in the Location Service UI:
 
 * color, which is used as the color of the pin that represents the location of the POI in the Location Service UI map.
-  - The valid values are "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, and #3DC8DE.
+  - The valid values are #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE, and "".
   - If the value is left blank, the Location Service UI uses blue as the default color.
     
     The values correspond to blue ( #3E76D0), purple (#AA99E8), fuschia (#DC2ABA), orange (#FC685B), light orange (#FC962E), yellow (#F6C436), light green (#BECE5D), green (#61B56B), and light blue (#3DC8DE), respectively.
   
 * icon, which is used as the icon on the pin that represents the location of the POI on the Location Service UI map
-  - The valid values are "", shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, briefcase, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench.
+  - The valid values are: shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, briefcase, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench, and "".
+    - The icon values are listed in the order they appear in the below picture.
+    ![UI_icons](../.gitbook/assets/UI_icons.png)
   - If the value is left blank, the UI uses heart as the default icon.
-
+  
 * Columns that are not mentioned can be left blank.
 
 

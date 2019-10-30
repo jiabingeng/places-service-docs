@@ -8,7 +8,7 @@ Places in Adobe's Experience Cloud geo-location service allows you to achieve th
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes. 
 * Visualize the POIs on a map to easily understand the spatial context and add/edit metadata attributes. 
 * Configure the SDK in Adobe Experience Platform Launch to define your location-triggered rules and metadata based conditions.
-* Reduce the code that you need to write to a monitor device's location and use Adobe's location monitor to automatically trigger the location-specific rules.
+* Reduce the code that you need to write to monitor a device's location and use Adobe's location monitor to automatically trigger the location-specific rules.
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context provides a more enriching mobile engagement experience.
 
