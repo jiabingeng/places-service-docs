@@ -2,7 +2,7 @@ Bulk uploading POIs
 =================
 A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
-Before you run these scripts, to access the Web Services APIs, check the [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+Before you run these scripts, to access the Web Services APIs, check [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
 
 Here is some information about the scipts. 
 
@@ -39,15 +39,17 @@ Here is a list of the columns and the values that you need to use:
 The values of the following columns are used in the Location Service UI:
 
 * color, which is used as the color of the pin that represents the location of the POI in the Location Service UI map.
-  - The valid values are "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, and #3DC8DE.
+  - The valid values are #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE, and "".
   - If the value is left blank, the Location Service UI uses blue as the default color.
     
     The values correspond to blue ( #3E76D0), purple (#AA99E8), fuschia (#DC2ABA), orange (#FC685B), light orange (#FC962E), yellow (#F6C436), light green (#BECE5D), green (#61B56B), and light blue (#3DC8DE), respectively.
   
 * icon, which is used as the icon on the pin that represents the location of the POI on the Location Service UI map
-  - The valid values are "", shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, briefcase, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench.
+  - The valid values are: shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, briefcase, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench, and "".
+    - The icon values are listed in the order they appear in the below picture.
+    ![UI_icons](../.gitbook/assets/UI_icons.png)
   - If the value is left blank, the UI uses heart as the default icon.
-
+  
 * Columns that are not mentioned can be left blank.
 
 
@@ -63,15 +65,15 @@ Running the Script
 
       * `access_code`
       
-        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md) . 
+        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md) . 
       
       * `org_id`
       
-        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
       
       * `api_key`
       
-        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Prequisites for using the Places REST API](../places-rest-apis/adobe-i-o-integration/README.md).
+        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Integration overview and prerequisites](../places-rest-apis/adobe-i-o-integration/README.md).
 
     1. Save your changes.
 1. In a terminal window, navigate to the `…/places-scripts/import/` directory.
