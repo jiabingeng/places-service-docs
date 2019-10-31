@@ -1,5 +1,9 @@
 # Places API reference
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-api-reference.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-api-reference.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 ## Processing a region event
 
 When a device crosses one of your app's pre-defined Places region boundaries, the region and event type are passed to the SDK for processing.

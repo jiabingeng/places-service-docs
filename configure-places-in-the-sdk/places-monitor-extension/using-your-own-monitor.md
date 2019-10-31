@@ -1,5 +1,9 @@
 # Using your own monitor
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/using-your-own-monitor.html](https://docs.adobe.com/content/help/en/places/using/using-your-own-monitor.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 You can also use your monitoring services and integrate with Places by using the Places extension APIs.
 
 ## Registering Geofences

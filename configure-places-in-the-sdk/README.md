@@ -1,5 +1,9 @@
 # Configure the SDK with Places
 
+**Important**: This content has permanently moved to the _Extensions for the Mobile SDKs_ section in the [https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/managing-pois-in-the-places-ui.html](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/managing-pois-in-the-places-ui.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
   
 To enable location awareness in your mobile app, configure the SDK with the Places extensions and, optionally, the Places Monitor extension. For more information including SDK configuration, see the following:
 

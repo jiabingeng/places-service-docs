@@ -1,5 +1,9 @@
 # API usage
 
+This content has permanently moved to [Manage libraries](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-libraries/manage-libraries.html) and [Manage POIs](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/manage-pois.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages. 
+
+Please update your bookmarks.
+
 ## REST API details
 
 For details about the Places REST API that help you manage your POIs and libraries, see the following sections:

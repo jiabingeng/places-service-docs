@@ -1,5 +1,9 @@
 # Get a library's rank
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-libraries/get-a-librarys-rank.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-libraries/get-a-librarys-rank.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 A GET method that allows you to rank libraries.
 
 ## Request

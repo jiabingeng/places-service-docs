@@ -1,5 +1,9 @@
 # Using Experience Platform Launch rules and data elements with Places data
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/define-data-elements.html](https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/define-data-elements.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 ## Rules
 
 Experience Platform Launch is a rule-based system and looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or HTML that you identified. You can build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into one solution. For more information about rules, see [Rules](https://docs.adobelaunch.com/managing-resources/rules) and [Create a rule](https://docs.adobelaunch.com/launch-reference/managing-resources/rules#create-a-rule).

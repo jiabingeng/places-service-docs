@@ -6,6 +6,10 @@ description: >-
 
 # Using Places with Adobe Campaign Standard
 
+**Important**: This content has permanently moved to [Push notifications ](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-push-notifications.html)and [In-app messages](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 _Thanks for visiting us last week, we’d love to give you a surprise for use on your next visit!_
 
 Having a deep understanding your customers preferences and habits are key to any successful marketing campaign. The items a user has searched for and previous purchase history play a major role in audience targeting. Knowing whether a user has visited a physical location can also add some valuable context when forming a relationship with the consumer.

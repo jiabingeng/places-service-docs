@@ -1,5 +1,9 @@
 # Overview
 
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/home.html](https://docs.adobe.com/content/help/en/places/using/home.html) so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages. 
+
+Please update your bookmarks.
+
 Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests \(POIs\).
 
 Places in Adobe's Experience Cloud geo-location service allows you to achieve the following:
@@ -23,20 +27,20 @@ Here are some of the ways you can use Places:
 
 Places comprises the following components:
 
-* **Places web service** - You can create and manage POIs by using the REST APIs. 
+* **Places web service** - You can create and manage POIs by using the REST APIs.
 
   For more information about the REST APIs, see [Places web service](places-rest-apis/).
 
 * **Places UI** - Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
-* **Places SDK** - The multi-platform mobile API interface to integrate the location context in your mobile apps. 
+* **Places SDK** - The multi-platform mobile API interface to integrate the location context in your mobile apps.
 
   For more information about the SDKs, see [Places extension](configure-places-in-the-sdk/places-extension/).
 
-* **Places rules** - The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. 
+* **Places rules** - The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events.
 
-  The rules also allow you to use geo-attributes in conditions to personalize the experience. 
+  The rules also allow you to use geo-attributes in conditions to personalize the experience.
 
-* **Places Monitor**  - The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. 
+* **Places Monitor** - The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules.
 
   For more information, see [Places extension](configure-places-in-the-sdk/places-extension/).
 

@@ -1,5 +1,9 @@
 # Read all libraries in your organization
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
   
 A GET method that returns the details for all libraries in your organization.
 

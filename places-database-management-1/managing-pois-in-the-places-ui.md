@@ -1,5 +1,9 @@
 # Manage POIs in the Places UI
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/managing-pois-in-the-places-ui.html](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/managing-pois-in-the-places-ui.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 ## Defining a geofence POI
 
 Geofences are a type of POI and are defined in the database based by the following keys:

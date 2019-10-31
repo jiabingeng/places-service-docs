@@ -1,5 +1,9 @@
 # Places event reference
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-event-ref.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-event-ref.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 Here is a list of the events that will be handled by the Places extension:
 
 ### GetCurrentPointsOfInterest

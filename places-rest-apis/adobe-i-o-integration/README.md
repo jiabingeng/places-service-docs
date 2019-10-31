@@ -1,4 +1,8 @@
-# Integration overview and prerequisites
+# Adobe I/O integration
+
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/adobe-i-o-integration.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/adobe-i-o-integration.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages. 
+
+Please update your bookmarks.
 
 ## User access
 
@@ -51,7 +55,7 @@ To generate your own self-signed keys:
    Email Address:  // Example:  joe.poi@adobe.com
    ```
 
-   For more information about OpenSSL, see [OpenSSL](https://www.openssl.org/).   
+   For more information about OpenSSL, see [OpenSSL](https://www.openssl.org/).  
    **Important**: The information that you provide is incorporated into the keys.
 
 4. Navigate to the directory where the `.key` and `.crt` files are located. For example, on macOS, go to **Macintosh HD** &gt; **users** &gt; \(**your user name**\) &gt; **keys**.

@@ -1,5 +1,9 @@
 # Update a POI
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/update-a-poi.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/update-a-poi.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 A PUT method that lets you update a POI.
 
 ## Request <a id="request"></a>

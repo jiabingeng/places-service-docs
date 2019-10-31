@@ -1,5 +1,9 @@
 # Using the Places Monitor extension
 
+**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+
 ## Install the Places Monitor extension in Experience Platform Launch <a id="configure-places-monitoring-extension-in-launch"></a>
 
 1. In Experience Platform Launch, click the **Extensions** tab.

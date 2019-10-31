@@ -1,5 +1,9 @@
 # Getting started
 
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/getting-started.html](https://docs.adobe.com/content/help/en/places/using/getting-started.html) so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages. 
+
+Please update your bookmarks.
+
 ## Get provisioned to use Adobe Location Service
 
 Location Service requires special provisioning context with your regular Adobe Experience Platform provisioning context.
