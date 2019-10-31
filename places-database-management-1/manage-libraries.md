@@ -1,8 +1,10 @@
 # Manage libraries in the Places UI
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.
 

@@ -1,8 +1,10 @@
 # Custom Places objects
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/cust-places-objects.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/cust-places-objects.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/cust-places-objects.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/cust-places-objects.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 Here are the custom native classes that will be used with the Places APIs:
 

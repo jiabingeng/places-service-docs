@@ -1,5 +1,11 @@
 # Places web services
 
+{% hint style="warning" %}
+This content has permanently moved to the _Web service API_ section in[https://docs.adobe.com/content/help/en/places/using/home.html](https://docs.adobe.com/content/help/en/places/using/home.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+
+Please update your bookmarks.
+{% endhint %}
+
 Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 
 The Places services allows you to do the following:

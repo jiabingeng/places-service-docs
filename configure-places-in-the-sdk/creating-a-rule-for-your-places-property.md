@@ -1,8 +1,10 @@
 # Create Places entry and exit rules in Launch
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html](https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html](https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including Places location entry and exit events. 
 

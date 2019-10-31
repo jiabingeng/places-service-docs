@@ -1,8 +1,10 @@
 # Places extension
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 

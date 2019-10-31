@@ -1,8 +1,10 @@
 # Places Monitor API reference
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 ## Register Places Monitor Extension
 

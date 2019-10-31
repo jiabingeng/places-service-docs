@@ -1,8 +1,10 @@
 # Read all POIs in a library
 
-**Important**: This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.html](https://docs.adobe.com/content/help/en/places/using/web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 A GET method that returns all POIs in a library.
 

@@ -6,9 +6,11 @@ description: >-
 
 # Using Places with Adobe Campaign Standard
 
-**Important**: This content has permanently moved to [Push notifications ](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-push-notifications.html)and [In-app messages](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+{% hint style="warning" %}
+This content has permanently moved to [Push notifications ](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-push-notifications.html)and [In-app messages](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
 
 Please update your bookmarks.
+{% endhint %}
 
 _Thanks for visiting us last week, we’d love to give you a surprise for use on your next visit!_
 
