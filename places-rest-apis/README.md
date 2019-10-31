@@ -1,7 +1,7 @@
 # Places web services
 
 {% hint style="warning" %}
-This content has permanently moved to the _Web service API_ section in[https://docs.adobe.com/content/help/en/places/using/home.html](https://docs.adobe.com/content/help/en/places/using/home.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+This content has permanently moved to the _Web service API_ section in [https://docs.adobe.com/content/help/en/places/using/home.html](https://docs.adobe.com/content/help/en/places/using/home.html), so that it can be in the same documentation system as other Adobe Experience Cloud content and be automatically translated into several languages.
 
 Please update your bookmarks.
 {% endhint %}

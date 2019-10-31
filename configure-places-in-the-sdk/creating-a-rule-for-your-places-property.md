@@ -1,7 +1,7 @@
 # Create Places entry and exit rules in Launch
 
 {% hint style="warning" %}
-This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html](https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html), so that it can be in the same place as other Adobe Experience Cloud content and be translated into several languages.
+This content has permanently moved to [https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html](https://docs.adobe.com/content/help/en/places/using/use-places-launch-workflow/create-rule-places-property.html), so that it can be in the same documentation system as other Adobe Experience Cloud content and be automatically translated into several languages.
 
 Please update your bookmarks.
 {% endhint %}
